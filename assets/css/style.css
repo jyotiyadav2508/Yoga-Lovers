@@ -6,6 +6,39 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 620;
+    color:rgb(105, 74, 74)
 
+}
+/* headings and logo*/
+h1,h2{
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    color:rgb(101, 69, 69)
+}
+#logo{
+   float:left;
+    font-size: 210%;
+}
+#menu, #logo{
+    line-height: 75px;
+}
+#menu{
+    font-size: 120%;
+    
+}
+#menu li{
+    float:right;
+    margin-right: 30px;
+    list-style: none;
+}
+#menu a{
+    text-decoration: none;
+    color:inherit;
+}
+#menu a:hover{
+    border-bottom: 2px solid rgb(15, 6, 6);
+}
+.active{
+    border-bottom: 2px solid rgb(15, 6, 6);  
 }
