@@ -1,44 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{
-    margin:0;
-    padding:0;
-    border:none;
-}
-body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 620;
-    color:rgb(105, 74, 74)
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: rgb(78, 11, 11);
+
+}
+
 /* headings and logo*/
-h1,h2{
+h1,
+h2 {
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
-    color:rgb(101, 69, 69)
+    font-weight: 550;
+    color: rgb(137, 66, 66);
 }
-#logo{
-   float:left;
-    font-size: 210%;
+
+#logo {
+    text-decoration: none;
+    font-size: 150%;
+    /* transition:3s ease-in-out; */
+    margin-right: auto;
 }
-#menu, #logo{
-    line-height: 75px;
-}
-#menu{
+
+#menu li {
+    list-style: none;
     font-size: 120%;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 0.6px;
+
+
+
+}
+
+#menu li a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 100%;
+    border-radius: 50px;
+    background-color: rgb(181, 107, 107);
+    padding: 9px 25px;
+    margin-left: 20px;
+}
+
+#menu a:hover {
+    border-bottom: 1.2px solid rgb(15, 6, 6);
+    color: rgba(184, 104, 6, 0.329);
     
 }
-#menu li{
-    float:right;
-    margin-right: 30px;
-    list-style: none;
-}
-#menu a{
-    text-decoration: none;
-    color:inherit;
-}
-#menu a:hover{
-    border-bottom: 2px solid rgb(15, 6, 6);
-}
-.active{
-    border-bottom: 2px solid rgb(15, 6, 6);  
+
+.active {
+    border-bottom: 1.2px solid rgb(15, 6, 6);
 }
