@@ -103,7 +103,6 @@ button {
     bottom: 40%;
     right: 20%;
     position: absolute;
-    /* background-color: red; */
     color:rgb(66, 66, 199);
     font-weight: 800;
    text-align: center;
@@ -122,9 +121,6 @@ button {
     margin-bottom: 50px;
 }
 .advantage{
-    /* padding: 10px;
-    margin:10px; */
-    /* background-color: aquamarine; */
   box-sizing: border-box;
   height:600px;
   width: 100%;
@@ -134,59 +130,53 @@ button {
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
   
-    
-   
+}
+.advantage h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 180%;
+    font-weight: 950;
+
+
 }
 #flexibility{
-    background: url("../images/pic9.jpeg") no-repeat center center;
+    background: url("../images/pic3\ -\ Copy.jpeg") no-repeat center center;
     width:100%;
     height:100%;
-    /* padding:5px 20px; */
-    /* margin-left: 20px; */
-    border-style: 1px solid red;
-    border-radius: 50%;
-    /* background-color: yellow; */
+    border-radius: 30%;
+   
     
 }
-#flexibility h2{
-    /* background: url("../images/pic5.jpeg") no-repeat;
-    height:50%;
-    width:50%; */
-    text-align: center;
-    
+
+#strength{
+    background: url("../images/pic14.jpeg") no-repeat center center;
+    width:100%;
+    height:100%;
+    border-radius: 30%;
+   
 }
-#b{
-    /* height:50%;
-    width:33%; */
-    /* float:left; */
-    background-color: rgb(84, 148, 237);
+#stress{
+    background: url("../images/laugh.jpg") no-repeat center center;
+    width:100%;
+    height:100%;
+    border-radius: 30%;
+
 }
-#c{
-    /* height:50%;
-    width:33%; */
-    /* float: right; */
-    background-color: rgb(82, 189, 89);
+#spritual{
+    background: url("../images/meditation.png") no-repeat center center;
+    width:100%;
+    height:100%;
+    border-radius: 30%;
 }
-#d{
-    /* height:50%;
-    width:33%; */
-    /* float: left; */
-    /* top:50%; */
-    background-color: rgb(221, 130, 200);
+#health{
+    background: url("../images/yogapic3.jpeg") no-repeat center center;
+    width:100%;
+    height:100%;
+    border-radius: 30%;
 }
-#e{
-    /* height:50%;
-    width:33%;
-    /* float: left; */
-    /* top:50%;
-    left:33%; */ 
-    background-color:rgb(197, 180, 171);
-}
-#f{
-    /* height:50%;
-    width:33%;
-    /* float: right; */
-    /* top:50%;
-    right:66%;  */
-    background-color: rgb(73, 97, 7);
+#control{
+    background: url("../images/balance.jpeg") no-repeat center center;
+    width:100%;
+    height:100%;
+    border-radius: 30%;
 }
