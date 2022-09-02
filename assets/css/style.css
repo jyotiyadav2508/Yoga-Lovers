@@ -10,16 +10,21 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    color:#B85042;
-    background-color:#E7E8D1;
+    /* color: #B85042; */
+    color:rgb(81, 3, 216);
+
+background-color: rgb(252, 233, 217);
+    /* background-color: #E7E8D1; */
 }
 
 /* headings and logo*/
-h1,p{
+h1,
+p {
     font-family: 'Noto Sans', sans-serif;
     text-transform: capitalize;
     font-weight: 550;
-    color:#B85042;
+    /* color: #B85042; */
+      color:rgb(81, 3, 216);
 }
 
 #logo {
@@ -28,6 +33,7 @@ h1,p{
     font-size: 150%;
     /* transition:3s ease-in-out; */
     margin-right: auto;
+
 }
 
 #menu li {
@@ -36,102 +42,122 @@ h1,p{
     display: inline-block;
     padding: 8px 15px;
     margin: 0.6px;
-
-
-
 }
 
 #menu li a {
     text-decoration: none;
     color: inherit;
+    
 
 }
 
 header {
+    overflow:hidden;
+    height:50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 20px 30px;
+    /* position:sticky; */
+    background-color: rgb(251, 201, 161);
+    /* top:0px; */
+    /* width: 100%;  */
+    
+
 }
 
 button {
-    color:#B85042;
+    /* color: #B85042; */
+
+    color:rgb(81, 3, 216);
     font-weight: 600;
     cursor: pointer;
     font-size: 100%;
     border-radius: 50px;
-    background-color:#A7BEAE;
+    /* background-color: #A7BEAE; */
+    background-color: rgb(219, 140, 75);
     padding: 9px 25px;
     margin-left: 20px;
 }
 
 #menu a:hover {
     border-bottom: 1.2px solid rgb(15, 6, 6);
-    color:#7A2048;
-    
+    color: #7A2048;
+
 }
 
 .active {
     border-bottom: 1.2px solid #7A2048;
 }
-#hero-image{
-    height: 90vh;
+
+#hero-outer {
+    position: relative;
+    /* height: 600px; */
+    width: 100%;
+}
+#hero-image {
+    height: 85vh;
     width: 100%;
     /* background: url("../images/pic3.jpeg") no-repeat ; */
     /* background: url("../images/yogweb.jpg") no-repeat ; */
-    background: url("../images/Y1.jpg") no-repeat ;
+    background: url("../images/Y1.jpg") no-repeat;
     border: 1px solid #B85042;
-    background-size: cover;
+     background-size: cover;
     background-position: center;
+} 
 
-   
-}
-#text h1{
+#text h1 {
     font-size: 220%;
 }
-
-
-#text{
+#text {
     font-size: 130%;
     text-transform: capitalize;
     letter-spacing: 4px;
-    width:450px;
-    height:250px;
-    padding-top:20px;
-    padding-left:20px;
-
+    width: 450px;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
     bottom: 40%;
     right: 20%;
     position: absolute;
-    color:rgb(66, 66, 199);
+    color: rgb(66, 66, 199);
     font-weight: 800;
-   text-align: center;
+    text-align: center;
 
 }
-#why-yoga{
-    height: 700px;
-    margin-top: 60px;
+
+#benefits-yoga{
+    height: 650px;
+    margin: 30px;
+    /* position:relative; */
+    /* border:2px solid green; */
+    /* background-color: aquamarine; */
 
 }
-#why-yoga h1{
+
+#benefits-yoga h1 {
     text-align: center;
-    line-height: 50px;
-    font-size: 220%;
-    padding-bottom: 15px;
-    margin-bottom: 50px;
+    text-decoration: underline;
+    line-height: 45px;
+    font-size: 250%;
+    padding:20px;
+    margin-bottom: 15px;
 }
-.advantage{
-  box-sizing: border-box;
-  height:600px;
-  width: 100%;
-    /* position:absolute; */
+
+.advantage {
+    box-sizing: border-box;
+    height: 600px;
+    width: 100%;
+    position:absolute;
     text-align: center;
-    display:grid;
+    display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
-  
+    /* overflow: hidden; */
+
 }
-.advantage h2{
+
+.advantage h2 {
     text-align: center;
     margin-top: 30px;
     font-size: 180%;
@@ -139,44 +165,63 @@ button {
 
 
 }
-#flexibility{
+
+#flexibility {
     background: url("../images/pic3\ -\ Copy.jpeg") no-repeat center center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 30%;
-   
-    
 }
 
-#strength{
+#strength {
     background: url("../images/pic14.jpeg") no-repeat center center;
-    width:100%;
-    height:100%;
-    border-radius: 30%;
-   
-}
-#stress{
-    background: url("../images/laugh.jpg") no-repeat center center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 30%;
 
 }
-#spritual{
+
+#stress {
+    background: url("../images/laugh.jpg") no-repeat center center;
+    width: 100%;
+    height: 100%;
+    border-radius: 35%;
+
+}
+
+#spritual {
     background: url("../images/meditation.png") no-repeat center center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 30%;
 }
-#health{
+
+#health {
     background: url("../images/yogapic3.jpeg") no-repeat center center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 30%;
 }
-#control{
+
+#control {
     background: url("../images/balance.jpeg") no-repeat center center;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 30%;
+}
+footer{
+    height: 120px;
+    /* background-color: rgb(247, 222, 202); */
+}
+.social-networks{
+    text-align: center;
+}
+.social-networks > li{
+    display:inline;
+}
+.social-networks li i{
+    font-size: 300%;
+    margin:25px;
+    padding:15px 10px;
+    color:#3a3a3a;
 }
