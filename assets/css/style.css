@@ -11,9 +11,9 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     /* color: #B85042; */
-    color:rgb(81, 3, 216);
+    color: rgb(81, 3, 216);
 
-background-color: rgb(252, 233, 217);
+    background-color: rgb(252, 233, 217);
     /* background-color: #E7E8D1; */
 }
 
@@ -24,7 +24,7 @@ p {
     text-transform: capitalize;
     font-weight: 550;
     /* color: #B85042; */
-      color:rgb(81, 3, 216);
+    color: rgb(81, 3, 216);
 }
 
 #logo {
@@ -47,13 +47,13 @@ p {
 #menu li a {
     text-decoration: none;
     color: inherit;
-    
+
 
 }
 
 header {
-    overflow:hidden;
-    height:50px;
+    overflow: hidden;
+    height: 60px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -62,14 +62,14 @@ header {
     background-color: rgb(251, 201, 161);
     /* top:0px; */
     /* width: 100%;  */
-    
+
 
 }
 
 button {
     /* color: #B85042; */
 
-    color:rgb(81, 3, 216);
+    color: rgb(81, 3, 216);
     font-weight: 600;
     cursor: pointer;
     font-size: 100%;
@@ -95,6 +95,7 @@ button {
     /* height: 600px; */
     width: 100%;
 }
+
 #hero-image {
     height: 85vh;
     width: 100%;
@@ -102,13 +103,14 @@ button {
     /* background: url("../images/yogweb.jpg") no-repeat ; */
     background: url("../images/Y1.jpg") no-repeat;
     border: 1px solid #B85042;
-     background-size: cover;
+    background-size: cover;
     background-position: center;
-} 
+}
 
 #text h1 {
     font-size: 220%;
 }
+
 #text {
     font-size: 130%;
     text-transform: capitalize;
@@ -126,7 +128,7 @@ button {
 
 }
 
-#benefits-yoga{
+#benefits-yoga {
     height: 650px;
     margin: 30px;
     /* position:relative; */
@@ -140,7 +142,7 @@ button {
     text-decoration: underline;
     line-height: 45px;
     font-size: 250%;
-    padding:20px;
+    padding: 20px;
     margin-bottom: 15px;
 }
 
@@ -148,7 +150,7 @@ button {
     box-sizing: border-box;
     height: 600px;
     width: 100%;
-    position:absolute;
+    position: absolute;
     text-align: center;
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -159,7 +161,7 @@ button {
 
 .advantage h2 {
     text-align: center;
-    margin-top:15px;
+    margin-top: 15px;
     font-size: 180%;
     font-weight: 950;
 
@@ -209,48 +211,65 @@ button {
     height: 100%;
     border-radius: 30%;
 }
-footer{
-    height:100px;
+
+footer {
+    height: 100px;
     /* background-color: rgb(247, 222, 202); */
     background-color: rgb(251, 201, 161);
-    bottom:0;
+    bottom: 0;
 }
-.social-networks{
+
+.social-networks {
     text-align: center;
 }
-.social-networks > li{
-    display:inline;
+
+.social-networks>li {
+    display: inline;
 }
-.social-networks li i{
+
+.social-networks li i {
     font-size: 250%;
-    margin:25px;
-    padding:15px 10px;
+    margin: 25px;
+    padding: 15px 10px;
     /* color:#3a3a3a; */
-    color:rgb(81, 3, 216);
+    color: rgb(81, 3, 216);
 }
+
 /* Style gallery page*/
-#photos{
-    clear:both;
+#photos {
+    clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-   
+
 
 }
-#photos > img{
-    width:100%;
+
+#photos>img {
+    width: 100%;
 
 }
 
 /*  Style Signup page */
-#form-section{
-    height:540px;
-    /* text-align: center; */
-    /* justify-content:left; */
-    /* font-size: 220%; */
-
-    margin:0 20%;
+#signup-form {
+    height: 500px;
+    margin-left: 35%;
+     font-size: 120%;
 }
-#signup-form{
-    margin: 15px;
+
+#signup-form h1 {
+    text-decoration: underline;
+    font-size: 200%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+input,
+select {
+    margin-left: 15px;
+    height: 35px;
+}
+
+label {
+    line-height: 40px;
 }
