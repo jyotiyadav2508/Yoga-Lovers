@@ -82,7 +82,7 @@ button {
 
 #menu a:hover {
     border-bottom: 1.2px solid rgb(15, 6, 6);
-    color: #7A2048;
+    color: #b80d5a;
 
 }
 
@@ -197,14 +197,14 @@ button {
 }
 
 #health {
-    background: url("../images/yogapic3.jpeg") no-repeat center center;
+    background: url("../images/happylife.png") no-repeat center center;
     width: 100%;
     height: 100%;
     border-radius: 30%;
 }
 
 #control {
-    background: url("../images/balance.jpeg") no-repeat center center;
+    background: url("../images/strength.png") no-repeat center center;
     width: 100%;
     height: 100%;
     border-radius: 30%;
@@ -223,5 +223,19 @@ footer{
     font-size: 300%;
     margin:25px;
     padding:15px 10px;
-    color:#3a3a3a;
+    /* color:#3a3a3a; */
+    color:rgb(81, 3, 216);
+}
+/* Style gallery page*/
+#photos{
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+   
+
+}
+#photos > img{
+    width:100%;
+
 }
