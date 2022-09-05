@@ -19,8 +19,7 @@ body {
 }
 
 /* headings and logo*/
-h1,
-p {
+h1{
     font-family: 'Noto Sans', sans-serif;
     text-transform: capitalize;
     font-weight: 550;
@@ -32,11 +31,11 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 150%;
-    /* transition:3s ease-in-out; */
     margin-right: auto;
 
 }
-#menu{
+
+#menu {
     margin-right: 60px;
 }
 
@@ -45,8 +44,8 @@ p {
     font-size: 150%;
     display: inline-block;
     padding: 8px 15px;
-    margin: 4px;
- } 
+    margin: 3px;
+}
 
 #menu li a {
     text-decoration: none;
@@ -62,15 +61,15 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 30px;
-    position:sticky;
+    position: sticky;
     background-color: rgb(251, 201, 161);
-    top:0px;
-    width: 100%; 
+    top: 0px;
+    width: 100%;
 
 
 }
 
- .btn {
+.btn {
     /* color: #B85042; */
 
     color: rgb(81, 3, 216);
@@ -82,8 +81,8 @@ header {
     background-color: rgb(219, 140, 75);
     padding: 9px 25px;
     margin-left: 50px;
-    
-} 
+
+}
 
 #menu a:hover {
     border-bottom: 1.2px solid rgb(15, 6, 6);
@@ -102,7 +101,7 @@ header {
 }
 
 #hero-image {
-    height: 85vh;
+    height:90vh;
     width: 100%;
     /* background: url("../images/pic3.jpeg") no-repeat ; */
     /* background: url("../images/yogweb.jpg") no-repeat ; */
@@ -127,19 +126,17 @@ header {
     bottom: 40%;
     right: 20%;
     position: absolute;
-    color: rgb(66, 66, 199);
-    font-weight: 800;
+    color: rgb(81, 3, 216);
+    font-weight: 700;
     text-align: center;
 
 }
 
 #benefits-yoga {
-    height: 650px;
+    height: 700px;
     width: 100%;
-    margin: 30px;
     /* position:relative; */
-    /* border:2px solid green; */
-    /* background-color: aquamarine; */
+   
 
 }
 
@@ -149,7 +146,7 @@ header {
     line-height: 45px;
     font-size: 250%;
     padding: 20px;
-    margin-bottom: 15px;
+    margin: 20px;
 }
 
 .advantage {
@@ -162,13 +159,15 @@ header {
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
     /* overflow: hidden; */
+    
+    
 
 }
 
 .advantage h3 {
     text-align: center;
-    margin-top: 15px;
-    font-size: 180%;
+   margin-top: 15px;
+    font-size: 170%;
     font-weight: 900;
 
 
@@ -179,6 +178,7 @@ header {
     width: 100%;
     height: 100%;
     border-radius: 30%;
+    position: relative;
 }
 
 #strength {
@@ -219,10 +219,10 @@ header {
 }
 
 footer {
-    height: 90px;
+    height: 70px;
     /* background-color: rgb(247, 222, 202); */
     background-color: rgb(251, 201, 161);
-    bottom: 0;
+    width: 100%;
 }
 
 .social-networks {
@@ -234,11 +234,131 @@ footer {
 }
 
 .social-networks li i {
-    font-size: 250%;
+    font-size: 200%;
     margin: 15px;
-    padding:5px 10px;
+    padding: 5px 10px;
     /* color:#3a3a3a; */
     color: rgb(81, 3, 216);
+}
+
+/* Media queries */
+
+/* For screen size from 450 px and below  */
+@media screen and (min-width:380px) {
+    body{
+    overflow-x: hidden;
+    }
+    header{
+        height: 50px;
+        display:inline-block;
+        padding-top: 3px 20px ;
+        width: 100%;
+    }
+ #menu{
+    display: inline-block; 
+    margin:2px;
+    color:red;
+    line-height: 30px;
+   /* float:left; */
+    
+ }  
+ #menu li{
+    font-size: 100%;
+    font-weight: 900;
+    padding:5px; 
+ }
+ #logo h1{
+    font-size:70%;
+    padding:0px;
+ } 
+ #hero-image{
+    width: 100%;
+    height:300px;
+    /* padding-left: -30px; */
+ }
+ #text{
+    height:150px;
+    width: 150px;
+    /* top:0px; */
+    bottom:45%;
+    right:20%;
+
+ }
+ #text p{
+    font-size: 13px;
+    font-weight: 600px;
+    text-transform: capitalize;
+    
+ }
+ #text h2{
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+   
+ }
+ #benefits-yoga h2{
+    font-size: 150%;
+    padding-top: 5px;
+ }
+ .advantage h3{
+    font-size: 120%;
+ }
+ .advantage{
+    height: 800px;
+    width: 100%;
+    display:inline;
+    padding:5px 10px;
+    
+ }
+ #flexibility{
+    height:250px;
+    width:100%;
+   padding :2px 25px;
+   margin-bottom: 15px;
+   
+ }
+ #strength{
+    height:250px;
+    width:100%;
+   padding :2px 25px;
+   margin-bottom: 15px;
+
+ }
+ #stress{
+    height:250px;
+    width:100%;
+   padding :2px 25px;
+   margin-bottom: 15px;
+
+ }
+ #spritual{
+    height:250px;
+    width:100%;
+   padding :2px 25px;
+   margin-bottom: 15px;
+
+ }
+#health{
+    height:250px;
+    width:100%;
+   padding :2px 25px;
+   margin-bottom: 15px;
+
+}
+#control{
+    height:250px;
+    width:100%;
+   padding :2px 25px;
+   margin-bottom: 15px;
+   
+}
+#photos{
+    display:grid;
+    grid-template-columns: auto ;
+    grid-gap:10px;
+    margin:10px 5px;
+    border:1px solid blue;
+}
 }
 
 /* Style gallery page*/
@@ -251,29 +371,38 @@ footer {
 
 }
 
-#photos>img {
+#photos > img {
     width: 100%;
 
 }
+/* @media screen and(max-width:450px) {
+    #photos{
+        column-count:2;
+        width: 100%;
+        height: auto;
+    }
+    } */
 
 /*  Style Signup page */
-#form-section{
-    background: url("../images/Signupbg.jpg") no-repeat ;
+#form-section {
+    background: url("../images/Signupbg.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     height: 580px;
     /* clear:both; */
     position: relative;
 }
+
 #signup-form {
     height: 400px;
     font-size: 120%;
-    width: 450px;
-     position:absolute;
-     top:50px;
-     left:45px;
-     /* margin:10px 5px; */
-     border:1px solid rgb(81, 3, 216);
+    width: 470px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    /* margin:10px 5px; */
+    border: 1px solid rgb(81, 3, 216);
+    border-radius: 30px;
 }
 
 #signup-form h1 {
@@ -288,21 +417,23 @@ input,
 select {
     margin-left: 15px;
     height: 35px;
+    border-radius: 10px;
+    width: 180px;
+
 }
 
 label {
     line-height: 40px;
     padding-left: 10px;
 }
-button{
+
+button {
     border-radius: 50px;
     background-color: bisque;
     font-size: 80%;
     color: rgb(81, 3, 216);
     padding: 9px 25px;
-   margin-left: 35%;
-   
+    margin-left: 35%;
     cursor: pointer;
     font-weight: 600;
-
 }
