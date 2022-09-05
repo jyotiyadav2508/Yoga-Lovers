@@ -19,7 +19,7 @@ body {
 }
 
 /* headings and logo*/
-h1{
+h1 {
     font-family: 'Noto Sans', sans-serif;
     text-transform: capitalize;
     font-weight: 550;
@@ -101,7 +101,7 @@ header {
 }
 
 #hero-image {
-    height:90vh;
+    height: 90vh;
     width: 100%;
     /* background: url("../images/pic3.jpeg") no-repeat ; */
     /* background: url("../images/yogweb.jpg") no-repeat ; */
@@ -136,7 +136,7 @@ header {
     height: 700px;
     width: 100%;
     /* position:relative; */
-   
+
 
 }
 
@@ -159,14 +159,14 @@ header {
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
     /* overflow: hidden; */
-    
-    
+
+
 
 }
 
 .advantage h3 {
     text-align: center;
-   margin-top: 15px;
+    margin-top: 15px;
     font-size: 170%;
     font-weight: 900;
 
@@ -245,120 +245,174 @@ footer {
 
 /* For screen size from 450 px and below  */
 @media screen and (min-width:380px) {
-    body{
-    overflow-x: hidden;
+    body {
+        overflow-x: hidden;
     }
-    header{
+
+    header {
         height: 50px;
-        display:inline-block;
-        padding-top: 3px 20px ;
+        display: inline-block;
+        padding-top: 3px 20px;
         width: 100%;
     }
- #menu{
-    display: inline-block; 
-    margin:2px;
-    color:red;
-    line-height: 30px;
-   /* float:left; */
-    
- }  
- #menu li{
-    font-size: 100%;
-    font-weight: 900;
-    padding:5px; 
- }
- #logo h1{
-    font-size:70%;
-    padding:0px;
- } 
- #hero-image{
-    width: 100%;
-    height:300px;
-    /* padding-left: -30px; */
- }
- #text{
-    height:150px;
-    width: 150px;
-    /* top:0px; */
-    bottom:45%;
-    right:20%;
 
- }
- #text p{
-    font-size: 13px;
-    font-weight: 600px;
-    text-transform: capitalize;
-    
- }
- #text h2{
-    font-size: 25px;
-    font-weight: 800;
-    text-align: center;
-   
- }
- #benefits-yoga h2{
-    font-size: 150%;
-    padding-top: 5px;
- }
- .advantage h3{
-    font-size: 120%;
- }
- .advantage{
-    height: 800px;
-    width: 100%;
-    display:inline;
-    padding:5px 10px;
-    
- }
- #flexibility{
-    height:250px;
-    width:100%;
-   padding :2px 25px;
-   margin-bottom: 15px;
-   
- }
- #strength{
-    height:250px;
-    width:100%;
-   padding :2px 25px;
-   margin-bottom: 15px;
+    #menu {
+        display: inline-block;
+        margin: 2px;
+        color: red;
+        line-height: 30px;
+        /* float:left; */
 
- }
- #stress{
-    height:250px;
-    width:100%;
-   padding :2px 25px;
-   margin-bottom: 15px;
+    }
 
- }
- #spritual{
-    height:250px;
-    width:100%;
-   padding :2px 25px;
-   margin-bottom: 15px;
+    #menu li {
+        font-size: 100%;
+        font-weight: 900;
+        padding: 5px;
+    }
 
- }
-#health{
-    height:250px;
-    width:100%;
-   padding :2px 25px;
-   margin-bottom: 15px;
+    #logo h1 {
+        font-size: 70%;
+        padding: 0px;
+    }
 
-}
-#control{
-    height:250px;
-    width:100%;
-   padding :2px 25px;
-   margin-bottom: 15px;
-   
-}
-#photos{
-    display:grid;
-    grid-template-columns: auto ;
-    grid-gap:10px;
-    margin:10px 5px;
-    border:1px solid blue;
-}
+    #hero-image {
+        width: 100%;
+        height: 300px;
+        /* padding-left: -30px; */
+    }
+
+    #text {
+        height: 150px;
+        width: 150px;
+        /* top:0px; */
+        bottom: 45%;
+        right: 20%;
+
+    }
+
+    #text p {
+        font-size: 13px;
+        font-weight: 600px;
+        text-transform: capitalize;
+
+    }
+
+    #text h2 {
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+
+    }
+
+    #benefits-yoga h2 {
+        font-size: 150%;
+        padding-top: 5px;
+    }
+
+    .advantage h3 {
+        font-size: 120%;
+    }
+
+    .advantage {
+        height: 800px;
+        width: 100%;
+        display: inline;
+        padding: 5px 10px;
+
+    }
+
+    #flexibility {
+        height: 250px;
+        width: 100%;
+        padding: 2px 25px;
+        margin-bottom: 15px;
+
+    }
+
+    #strength {
+        height: 250px;
+        width: 100%;
+        padding: 2px 25px;
+        margin-bottom: 15px;
+
+    }
+
+    #stress {
+        height: 250px;
+        width: 100%;
+        padding: 2px 25px;
+        margin-bottom: 15px;
+
+    }
+
+    #spritual {
+        height: 250px;
+        width: 100%;
+        padding: 2px 25px;
+        margin-bottom: 15px;
+
+    }
+
+    #health {
+        height: 250px;
+        width: 100%;
+        padding: 2px 25px;
+        margin-bottom: 15px;
+
+    }
+
+    #control {
+        height: 250px;
+        width: 100%;
+        padding: 2px 25px;
+        margin-bottom: 15px;
+
+    }
+
+    #photos {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        margin: 10px 5px;
+        border: 1px solid blue;
+    }
+
+    #form-section {
+        height: 400px;
+        width: 100%;
+        position: relative;
+
+    }
+
+    #signup-form {
+        height: 150px;
+        font-size: 60%;
+        width:100px;
+        position: absolute;
+        margin-left:-30px;
+        margin-top: -20px;
+    }
+
+    #signup-form h1 {
+        font-size: 40%;
+        padding:5px;
+    }
+
+    input,
+    select {
+        margin-left: 5px;
+        height: 15px;
+        border-radius: 10px;
+        width: 100px;
+
+    }
+
+    label {
+        line-height: 15px;
+        font-size:17px;
+    }
+
 }
 
 /* Style gallery page*/
@@ -371,17 +425,11 @@ footer {
 
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 
 }
-/* @media screen and(max-width:450px) {
-    #photos{
-        column-count:2;
-        width: 100%;
-        height: auto;
-    }
-    } */
+
 
 /*  Style Signup page */
 #form-section {
@@ -401,7 +449,7 @@ footer {
     top: 50px;
     left: 40px;
     /* margin:10px 5px; */
-    border: 1px solid rgb(81, 3, 216);
+    /* border: 1px solid rgb(81, 3, 216); */
     border-radius: 30px;
 }
 
@@ -411,29 +459,30 @@ footer {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+    
 }
 
 input,
 select {
-    margin-left: 15px;
-    height: 35px;
+    margin-left: 10px;
+    height: 25px;
     border-radius: 10px;
-    width: 180px;
+    width: 150px;
 
 }
 
 label {
-    line-height: 40px;
+    line-height: 30px;
     padding-left: 10px;
 }
 
 button {
     border-radius: 50px;
     background-color: bisque;
-    font-size: 80%;
+    font-size: 70%;
     color: rgb(81, 3, 216);
-    padding: 9px 25px;
-    margin-left: 35%;
+    padding: 5px 20px;
+    margin-left:15%;
     cursor: pointer;
     font-weight: 600;
 }
