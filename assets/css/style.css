@@ -11,10 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
    color:black;
-   /* background-color:#EEA47FFF; */
-   /* background-color:#FCEDDA; */
-   /* color: #B85042; */
-   background-color: white;
+   background-color:#FCEDDA;
+  
 }
 header{
     display:flex;
@@ -47,8 +45,8 @@ header{
 }
 
 #hero-image{
-    background:url("..//yogapics/hero.jpg") no-repeat;
-    /* background:url("..//yogapics/yog6.jpeg") no-repeat; */
+    /* background:url("..//yogapics/hero.jpg") no-repeat; */
+    background:url("..//yogapics/hero-image.jpeg") no-repeat;
      border: 1px solid #B85042;
     background-size: cover;
     background-position: center;
@@ -130,14 +128,14 @@ footer {
 }
 /* About us page */
 
-#our-yoga h1{
+#yoga-program h1{
     text-align: center;
     font-size: 220%;
 text-decoration: underline;
-padding:5px;
+margin-top:20px;
 /* color: #B85042; */
 }
-#senior-yoga , #meditation, #advanced-yoga{
+#senior-yoga , #meditation, #advanced-yoga , #child-yoga , #basic-yoga{
     display:grid;
     grid-template-columns:auto auto;
     grid-gap:30px;
@@ -147,36 +145,17 @@ padding:5px;
     
 }
 
-#senior-yoga p, #meditation p, #advanced-yoga p{
+#senior-yoga p, #meditation p, #advanced-yoga p , #child-yoga p, #basic-yoga p{
     font-size:120%;
     /* color: #B85042; */
     
 
 }
-#senior-yoga h2, #meditation h2, #advanced-yoga h2{
+#senior-yoga h2, #meditation h2, #advanced-yoga h2, #child-yoga h2 , #basic-yoga h2{
     font-size: 200%;
     text-align: center;
     color: #B85042;
     text-decoration: underline;
     
 }
-#child-yoga , #basic-yoga{
-    display:grid;
-    grid-template-columns:auto auto;
-    grid-gap:30px;
-    margin: 50px;
-    /* color: #B85042; */
-    border:1px solid #B85042;
-    
-}
 
-#child-yoga p , #basic-yoga p{
-    font-size:120%;
-    /* color: #B85042; */
-}
-#child-yoga h2,#basic-yoga h2{
-    font-size: 200%;
-    text-align: center;
-    color: #B85042;
-    text-decoration: underline;
-}
