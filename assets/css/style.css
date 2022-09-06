@@ -12,6 +12,8 @@ body {
     font-weight: 800;
    color:black;
    /* background-color:#EEA47FFF; */
+   background-color:#FCEDDA;
+   /* color: #B85042; */
 }
 header{
     display:flex;
@@ -45,8 +47,6 @@ header{
 #hero-image{
     background:url("..//yogapics/hero.jpg") no-repeat;
     /* background:url("..//yogapics/yog6.jpeg") no-repeat; */
-    /* background:url("..//yogapics/main-bg.jpg") no-repeat; */
-
      border: 1px solid #B85042;
     background-size: cover;
     background-position: center;
@@ -63,42 +63,67 @@ header{
 }
 #advantagae{
     display:grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-    margin: 20px;
+    grid-template-columns:auto auto;
+    grid-gap: 5px;
+    margin: 50px 20%;
     text-align: left;
-    /* display: flex;
-    justify-content: space-between;
-    margin:5px 60px;
-    text-align: center; */
   
-}
-.benefits{
-    /* border:2px solid red; */
-    background-color:#EE4E34;
 }
 .benefits li{
     list-style:disc;
     text-align: left;
-    font-size: 120%;
+    font-size: 130%;
     padding-left: 10px;
     margin: 10px;
     
-  
 }
-#benefits-yoga{
-    background-color:#FCEDDA;
-    margin-top: 0;
-}
-#benefits-yoga h2{
+#yoga-benefits h2{
     text-align: center;
     font-size: 250%;
     margin-top: 30px;
     text-decoration: underline;
-    color:blue;
+
 }
-#benefits-yoga h3{
-font-size: 150%;
+#yoga-benefits p{
+    font-size:130%;
+    text-align: center;
+    /* margin-top:20px; */
+}
+#yoga-benefits h3{
+font-size: 180%;
+text-decoration: underline;
+margin-bottom: 20px;
+}
+footer {
+    height: 70px;
+    background-color:#f7dfc1;
 }
 
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks li i {
+    font-size: 200%;
+    margin: 15px;
+    padding: 5px 10px;
+    /* color:#3a3a3a; */
+    color: rgb(81, 3, 216);
+}
+ /* our gallery page */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+#photos > img {
+    width: 100%;
+
+}
 
