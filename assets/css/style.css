@@ -10,7 +10,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
-   color:#F96167;
+   color:black;
    /* background-color:#EEA47FFF; */
 }
 header{
@@ -41,3 +41,64 @@ header{
 .active {
     border-bottom: 1.2px solid #7A2048;
 }
+
+#hero-image{
+    background:url("..//yogapics/hero.jpg") no-repeat;
+    /* background:url("..//yogapics/yog6.jpeg") no-repeat; */
+    /* background:url("..//yogapics/main-bg.jpg") no-repeat; */
+
+     border: 1px solid #B85042;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}  
+#hero-image h2{
+    text-align: center;
+    font-size: 380%;
+    color:black;
+    margin-top: 10%;
+    margin-left:5%;
+    width:35%;  
+    font-style: oblique;
+}
+#advantagae{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: 20px;
+    text-align: left;
+    /* display: flex;
+    justify-content: space-between;
+    margin:5px 60px;
+    text-align: center; */
+  
+}
+.benefits{
+    /* border:2px solid red; */
+    background-color:#EE4E34;
+}
+.benefits li{
+    list-style:disc;
+    text-align: left;
+    font-size: 120%;
+    padding-left: 10px;
+    margin: 10px;
+    
+  
+}
+#benefits-yoga{
+    background-color:#FCEDDA;
+    margin-top: 0;
+}
+#benefits-yoga h2{
+    text-align: center;
+    font-size: 250%;
+    margin-top: 30px;
+    text-decoration: underline;
+    color:blue;
+}
+#benefits-yoga h3{
+font-size: 150%;
+}
+
+
