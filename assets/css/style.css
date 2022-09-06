@@ -12,13 +12,15 @@ body {
     font-weight: 800;
    color:black;
    /* background-color:#EEA47FFF; */
-   background-color:#FCEDDA;
+   /* background-color:#FCEDDA; */
    /* color: #B85042; */
+   background-color: white;
 }
 header{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    background-color:#f7dfc1;
 }
 #logo{
     padding-left: 50px;
@@ -126,4 +128,55 @@ footer {
     width: 100%;
 
 }
+/* About us page */
 
+#our-yoga h1{
+    text-align: center;
+    font-size: 220%;
+text-decoration: underline;
+padding:5px;
+/* color: #B85042; */
+}
+#senior-yoga , #meditation, #advanced-yoga{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-gap:30px;
+    margin: 50px;
+    /* color: #B85042; */
+    border:1px solid #B85042;
+    
+}
+
+#senior-yoga p, #meditation p, #advanced-yoga p{
+    font-size:120%;
+    /* color: #B85042; */
+    
+
+}
+#senior-yoga h2, #meditation h2, #advanced-yoga h2{
+    font-size: 200%;
+    text-align: center;
+    color: #B85042;
+    text-decoration: underline;
+    
+}
+#child-yoga , #basic-yoga{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-gap:30px;
+    margin: 50px;
+    /* color: #B85042; */
+    border:1px solid #B85042;
+    
+}
+
+#child-yoga p , #basic-yoga p{
+    font-size:120%;
+    /* color: #B85042; */
+}
+#child-yoga h2,#basic-yoga h2{
+    font-size: 200%;
+    text-align: center;
+    color: #B85042;
+    text-decoration: underline;
+}
