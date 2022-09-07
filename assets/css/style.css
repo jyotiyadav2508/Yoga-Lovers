@@ -40,7 +40,7 @@ header {
 
 #menu li {
     display: inline-block;
-    margin: 25px;
+    margin:15px;
 }
 
 #menu li a {
@@ -57,8 +57,31 @@ header {
 .active {
     border-bottom: 1.2px solid #7A2048;
 }
+/* Media queries
 
-#hero-image {
+For screen size from 450 px and below  
+@media screen and (min-width:450px) {
+    body {
+        overflow-x: hidden;
+    }
+    header{
+        display:inline-block;
+    }
+    #logo{
+    font-size: 150%; 
+     display: inline-block;
+    }
+    #menu{
+        clear:left;
+       display:inline-block;
+        margin-left:5px;
+       line-height:15px ;
+       margin:1px;
+       font-size:90%;
+    }
+} */
+
+#hero-image{
     /* background:url("..//yogapics/hero.jpg") no-repeat; */
     background: url("..//yogapics/hero-image.jpeg") no-repeat;
     border: 1px solid #B85042;
@@ -218,37 +241,42 @@ footer {
 }
 
 #contact-form h2 {
-    font-size: 220%;
+    font-size: 200%;
     color: #B85042;
 
 
 }
 
 label {
-    line-height: 60px;
-    font-size: 150%;
+    line-height:40px;
+    font-size: 130%;
 
 }
 
 input {
-    font-size: 120%;
-    line-height: 40px;
+    font-size: 100%;
+    line-height:35px;
     width: 50%;
     border: #f0cc9f 1px solid;
 }
 textarea{
-    font-size: 150%;
+    font-size: 130%;
     width:50%;
     border: #f0cc9f 1px solid;
 }
 
 button {
     font-size: 130%;
-    line-height: 50px;
-    margin-top: 20px;
+    line-height: 40px;
+    margin-top: 15px;
     background-color: #B85042;
     color: white;
     padding: 0 20px;
     cursor: pointer;
 
+}
+#sucess{
+    font-size: 120%;
+    color:#661106;
+    margin-top: 20px;
 }
