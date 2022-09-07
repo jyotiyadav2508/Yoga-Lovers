@@ -56,64 +56,50 @@ header {
 
 .active {
     border-bottom: 1.2px solid #7A2048;
-}
-/* Media queries
+}  
 
-For screen size from 450 px and below  
-@media screen and (min-width:450px) {
-    body {
-        overflow-x: hidden;
-    }
-    header{
-        display:inline-block;
-    }
-    #logo{
-    font-size: 150%; 
-     display: inline-block;
-    }
-    #menu{
-        clear:left;
-       display:inline-block;
-        margin-left:5px;
-       line-height:15px ;
-       margin:1px;
-       font-size:90%;
-    }
-} */
 
 #hero-image{
-    /* background:url("..//yogapics/hero.jpg") no-repeat; */
-    background: url("..//yogapics/hero-image.jpeg") no-repeat;
+    background:url("..//yogapics/hero.jpg") no-repeat;
+    /* background: url("..//yogapics/hero-image.jpeg") no-repeat; */
     border: 1px solid #B85042;
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
+    
 }
 
 #hero-image h2 {
     text-align: center;
-    font-size: 380%;
+    font-size:150%;
+    font-weight: 900;
     /* color:black; */
     color: #661106;
-    margin-top: 10%;
-    margin-left: 5%;
-    width: 35%;
+    margin-top: 20% ;
+    /* margin-left: 20%; */
+    /* width:250px; */
     font-style: oblique;
 }
 
 #advantagae {
-    display: grid;
+     /* display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5px;
-    margin: 50px 20%;
-    text-align: left;
-
+    margin: 50px 20%; */
+    display: block;
+    align-items: center;
+    margin:1% 10%;
+    padding:30px;
 }
 
 #yoga-benefits {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
-
+.benefits{
+    margin: 3% 10%;
+    padding:0 20px;
+}
 .benefits li {
     list-style: disc;
     text-align: left;
@@ -133,8 +119,8 @@ For screen size from 450 px and below
 
 #yoga-benefits p {
     font-size: 130%;
-    text-align: center;
-    /* margin-top:20px; */
+    text-align: justify;
+    margin:0 50px;
 }
 
 #yoga-benefits h3 {
@@ -168,23 +154,41 @@ footer {
     color: rgb(81, 3, 216);
 }
 
-/* our gallery page */
+/* Media queries */
 
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-}
+/* For screen size from 450 px and below   */
+@media screen and (max-width:450px) {
+    body {
+        overflow-x: hidden;
+    }
+    header{
+        display:inline-block;
+    }
+    /* #menu{
+       line-height:10px ;
+       margin:5px;
+    } */
+    #hero-image h2{
+        font-size: 250%;
+        text-align: center;
+        }
+    #hero-image{
+        width:90%;
+        height:150%;
+        background-size: cover;
+        background-position: center;
+    }
 
-#photos>img {
-    width: 100%;
+ } 
+ @media screen and (min-width:800px) {
 
-}
+    
+ }
 
 /* About us page */
 #yoga-program {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    padding:20px;
 
 }
 
@@ -193,7 +197,7 @@ footer {
     font-size: 220%;
     text-decoration: underline;
     margin-top: 20px;
-    /* color: #B85042; */
+    margin-bottom:20px;
 }
 
 #senior-yoga,
@@ -203,10 +207,14 @@ footer {
 #basic-yoga {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 30px;
-    margin: 50px;
-    /* color: #B85042; */
+    grid-gap: 30px; 
     border: 1px solid #B85042;
+    /* margin: 50px; */
+    /* color: #B85042;
+    /* border: 1px solid #B85042;
+    display: block;
+    align-items: center;
+    padding:20px; */
 
 }
 
@@ -217,7 +225,8 @@ footer {
 #basic-yoga p {
     font-size: 120%;
     /* color: #B85042; */
-    margin-top: 25px;
+    margin: 20px;
+    padding:0 20px;
 
 }
 
@@ -275,8 +284,24 @@ button {
     cursor: pointer;
 
 }
-#sucess{
-    font-size: 120%;
+#thanks-msg h2{
+    font-size: 250%;
     color:#661106;
-    margin-top: 20px;
+    text-align: center;
+    margin-top:40px;
+    width:50%;
+    margin-left:20%;
+
+
+}
+#thanks-msg  > button{
+    font-size: 120%;
+    line-height: 40px;
+    margin-top: 15px;
+    background-color: #B85042;
+    color:white;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-left: 40%;
+
 }

@@ -105,10 +105,11 @@ header {
     width: 100%;
     /* background: url("../images/pic3.jpeg") no-repeat ; */
     /* background: url("../images/yogweb.jpg") no-repeat ; */
-    background: url("../images/Y1.jpg") no-repeat;
+    background: url("../images/Y1.jpg") no-repeat ;
     border: 1px solid #B85042;
     background-size: cover;
     background-position: center;
+    
 }
 
 #text h2 {
