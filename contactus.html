@@ -35,7 +35,8 @@
         </nav>
     </header>
     <section>
-        <form>
+        <!-- <form method="POST" action="submitted.html"> -->
+            <form method="POST" action="https://formdump.codeinstitute.net">
             <div id="contact-form">
                 <h2>Contact us now</h2>
                 <div>
@@ -52,9 +53,13 @@
                     <label for="phone">Phone :</label><br>
                     <input type="number" name="phone" id="phone" placeholder="Enter your contact number" required>
                 </div>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message"  maxlength="500"  rows="5"></textarea>
+                </div>
                 <div >
                     <button type="submit" value="submit">Submit</button>
-                   
+        
                 </div>
                 </div>
         </form>

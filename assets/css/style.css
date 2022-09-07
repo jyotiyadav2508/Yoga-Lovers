@@ -28,14 +28,14 @@ header {
 }
 
 #logo {
-    padding-left: 50px;
+    padding-left: 30px;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #661106;
 }
 
 #menu {
-    padding-right: 70px;
+    padding-right: 50px;
 }
 
 #menu li {
@@ -213,7 +213,7 @@ footer {
 /* Contact us page styling */
 
 #contact-form {
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 20%;
 }
 
@@ -226,14 +226,19 @@ footer {
 
 label {
     line-height: 60px;
-    font-size: 160%;
+    font-size: 150%;
 
 }
 
 input {
     font-size: 120%;
-    line-height: 50px;
+    line-height: 40px;
     width: 50%;
+    border: #f0cc9f 1px solid;
+}
+textarea{
+    font-size: 150%;
+    width:50%;
     border: #f0cc9f 1px solid;
 }
 
