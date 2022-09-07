@@ -40,7 +40,7 @@ header {
 
 #menu li {
     display: inline-block;
-    margin:15px;
+    margin: 15px;
 }
 
 #menu li a {
@@ -56,50 +56,52 @@ header {
 
 .active {
     border-bottom: 1.2px solid #7A2048;
-}  
+}
 
 
-#hero-image{
-    background:url("..//yogapics/hero.jpg") no-repeat;
+#hero-image {
+    background: url("..//yogapics/hero.jpg") no-repeat;
     /* background: url("..//yogapics/hero-image.jpeg") no-repeat; */
     border: 1px solid #B85042;
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
-    
+
 }
 
 #hero-image h2 {
     text-align: center;
-    font-size:150%;
+    font-size: 350%;
     font-weight: 900;
     /* color:black; */
     color: #661106;
-    margin-top: 20% ;
+    margin-top: 20%;
     /* margin-left: 20%; */
     /* width:250px; */
     font-style: oblique;
 }
 
 #advantagae {
-     /* display: grid;
+    /* display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5px;
     margin: 50px 20%; */
     display: block;
     align-items: center;
-    margin:1% 10%;
-    padding:30px;
+    margin: 1% 10%;
+    padding: 30px;
 }
 
 #yoga-benefits {
     margin-bottom: 80px;
 }
-.benefits{
+
+.benefits {
     margin: 3% 10%;
-    padding:0 20px;
+    padding: 0 20px;
 }
+
 .benefits li {
     list-style: disc;
     text-align: left;
@@ -120,7 +122,7 @@ header {
 #yoga-benefits p {
     font-size: 130%;
     text-align: justify;
-    margin:0 50px;
+    margin: 0 50px;
 }
 
 #yoga-benefits h3 {
@@ -157,7 +159,7 @@ footer {
 /* Media queries */
 
 /* For screen size from 450 px and below   */
-@media screen and (max-width:450px) {
+/* @media screen and (max-width:450px) {
     body {
         overflow-x: hidden;
     }
@@ -168,7 +170,7 @@ footer {
        line-height:10px ;
        margin:5px;
     } */
-    #hero-image h2{
+/* #hero-image h2{
         font-size: 250%;
         text-align: center;
         }
@@ -177,19 +179,59 @@ footer {
         height:150%;
         background-size: cover;
         background-position: center;
+    } */
+
+
+@media screen and (max-width:950px) {
+
+    #senior-yoga img,
+    #child-yoga img,
+    #meditation img {
+        padding-top: 90px;
+        padding-left: 5px;
     }
 
- } 
- @media screen and (min-width:800px) {
+    #basic-yoga img,
+    #advanced-yoga img {
+        padding-top: 40px;
+        padding-left: 5px;
+    }
 
-    
- }
+    #hero-image h2 {
+        font-size: 350%;
+        margin-top: 10%;
+        width: 300px;
+        padding-left: 30px;
+        color: black;
+    }
+
+    #logo,
+    #menu li a {
+        color: black;
+    }
+
+    header {
+        height: 90px;
+    }
+
+    #contact-form {
+        margin-top: 45px;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:750px)
 
 /* About us page */
+
 #yoga-program {
     margin-bottom: 80px;
-    padding:20px;
-
+    padding: 20px;
 }
 
 #yoga-program h1 {
@@ -197,7 +239,7 @@ footer {
     font-size: 220%;
     text-decoration: underline;
     margin-top: 20px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 #senior-yoga,
@@ -207,7 +249,7 @@ footer {
 #basic-yoga {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 30px; 
+    grid-gap: 30px;
     border: 1px solid #B85042;
     /* margin: 50px; */
     /* color: #B85042;
@@ -226,7 +268,7 @@ footer {
     font-size: 120%;
     /* color: #B85042; */
     margin: 20px;
-    padding:0 20px;
+    padding: 0 20px;
 
 }
 
@@ -245,7 +287,7 @@ footer {
 /* Contact us page styling */
 
 #contact-form {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 20%;
 }
 
@@ -257,20 +299,21 @@ footer {
 }
 
 label {
-    line-height:40px;
+    line-height: 40px;
     font-size: 130%;
 
 }
 
 input {
     font-size: 100%;
-    line-height:35px;
+    line-height: 35px;
     width: 50%;
     border: #f0cc9f 1px solid;
 }
-textarea{
+
+textarea {
     font-size: 130%;
-    width:50%;
+    width: 50%;
     border: #f0cc9f 1px solid;
 }
 
@@ -278,28 +321,31 @@ button {
     font-size: 130%;
     line-height: 40px;
     margin-top: 15px;
-    background-color: #B85042;
-    color: white;
+    /* background-color: #B85042; */
+    /* color: white; */
+    border: 1px solid #f1ab55;
     padding: 0 20px;
     cursor: pointer;
 
 }
-#thanks-msg h2{
+
+#thanks-msg h2 {
     font-size: 250%;
-    color:#661106;
+    color: #661106;
     text-align: center;
-    margin-top:40px;
-    width:50%;
-    margin-left:20%;
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 20%;
 
 
 }
-#thanks-msg  > button{
+
+#thanks-msg>button {
     font-size: 120%;
     line-height: 40px;
     margin-top: 15px;
     background-color: #B85042;
-    color:white;
+    color: white;
     padding: 0 20px;
     cursor: pointer;
     margin-left: 40%;
