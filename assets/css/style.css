@@ -19,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f7dfc1;
+    background-color: #f7ce9b;
     position: sticky;
     top: 0;
     border-bottom: 0.5px solid #661106;
@@ -158,36 +158,12 @@ footer {
 
 /* Media queries */
 
-/* For screen size from 450 px and below   */
-/* @media screen and (max-width:450px) {
-    body {
-        overflow-x: hidden;
-    }
-    header{
-        display:inline-block;
-    }
-    /* #menu{
-       line-height:10px ;
-       margin:5px;
-    } */
-/* #hero-image h2{
-        font-size: 250%;
-        text-align: center;
-        }
-    #hero-image{
-        width:90%;
-        height:150%;
-        background-size: cover;
-        background-position: center;
-    } */
-
-
 @media screen and (max-width:950px) {
 
     #senior-yoga img,
     #child-yoga img,
     #meditation img {
-        padding-top: 90px;
+        padding-top: 50px;
         padding-left: 5px;
     }
 
@@ -223,9 +199,121 @@ footer {
         width: 70%;
     }
 
+    #senior-yoga,
+    #meditation,
+    #advanced-yoga,
+    #child-yoga,
+    #basic-yoga {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+        border: 1px solid #B85042;
+    }
 }
 
-@media screen and (max-width:750px)
+@media screen and (max-width:750px) {
+    header {
+        display: inline;
+        border-bottom: 0.5px solid #661106;
+        background-color: #f7ce9b;
+    }
+
+    #menu li a {
+        margin: 10px;
+    }
+
+    #logo {
+        padding-top: 10px;
+    }
+
+    #senior-yoga,
+    #meditation,
+    #advanced-yoga,
+    #child-yoga,
+    #basic-yoga {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+    header {
+        height: 80px;
+        background-color: #f7ce9b;
+    }
+
+    #logo {
+        font-size: 140%;
+        padding: 10px 20px;
+    }
+
+    #menu li {
+        font-size: 75%;
+        margin: 1px;
+    }
+
+    #hero-image h2 {
+        color: red;
+        font-size: 165%;
+        width: 220px;
+        padding-left: 5px;
+        margin-top: 2%;
+        /* color:black; */
+    }
+
+    #hero-image {
+        height: 400px;
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 20px;
+
+    }
+
+    #yoga-benefits h2 {
+        font-size: 150%;
+    }
+
+    #yoga-benefits p {
+        font-size: 110%;
+
+    }
+
+    #yoga-benefits h3 {
+        font-size: 130%;
+        width: 200px;
+    }
+
+    #yoga-benefits li {
+        font-size: 110%;
+    }
+
+    #senior-yoga img,
+    #meditation img,
+    #advanced-yoga img,
+    #child-yoga img,
+    #basic-yoga img {
+        width: 70%;
+    }
+
+    #yoga-program h1 {
+        font-size: 150%;
+    }
+    #senior-yoga h2,
+#meditation h2,
+#advanced-yoga h2,
+#child-yoga h2,
+#basic-yoga h2 {
+    font-size: 130%;
+}
+#senior-yoga p,
+#meditation p,
+#advanced-yoga p,
+#child-yoga p,
+#basic-yoga p{
+    font-size: 110%;
+}
+}
+
 
 /* About us page */
 
@@ -242,7 +330,7 @@ footer {
     margin-bottom: 20px;
 }
 
-#senior-yoga,
+/* #senior-yoga,
 #meditation,
 #advanced-yoga,
 #child-yoga,
@@ -250,15 +338,15 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 30px;
-    border: 1px solid #B85042;
-    /* margin: 50px; */
-    /* color: #B85042;
+    border: 1px solid #B85042; */
+/* margin: 50px; */
+/* color: #B85042;
     /* border: 1px solid #B85042;
     display: block;
     align-items: center;
     padding:20px; */
 
-}
+/* } */
 
 #senior-yoga p,
 #meditation p,
