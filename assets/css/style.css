@@ -30,7 +30,7 @@ header {
 #logo {
     padding-left: 30px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing:2px;
     color: #661106;
 }
 
@@ -60,8 +60,7 @@ header {
 
 
 #hero-image {
-    background: url("..//yogapics/hero.jpg") no-repeat;
-    /* background: url("..//yogapics/hero-image.jpeg") no-repeat; */
+    background: url("..//yogapics/hero-image.jpg") no-repeat;
     border: 1px solid #B85042;
     background-size: cover;
     background-position: center;
@@ -74,17 +73,12 @@ header {
     text-align: center;
     font-size: 350%;
     font-weight: 900;
-    /* color:black; */
-    color: #661106;
+    color:black;
     margin-top: 20%;
     font-style: oblique;
 }
 
 #advantagae {
-    /* display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 5px;
-    margin: 50px 20%; */
     display: block;
     align-items: center;
     margin: 1% 10%;
@@ -172,7 +166,7 @@ footer {
         font-size: 250%;
         margin-top: 20%;
         width: 300px;
-        margin-left: 40px;
+        margin-left:35px;
         color: black;
         background-color: #f1cb9d;
         border: 0.5px solid #661106;
@@ -241,7 +235,7 @@ footer {
 @media screen and (max-width:450px) {
 
     #logo {
-        font-size: 140%;
+        font-size: 130%;
         padding: 10px 20px;
     }
 
@@ -251,10 +245,10 @@ footer {
     }
 
     #hero-image h2 {
-        font-size: 90%;
+        font-size: 120%;
         margin-top: 20%;
-        width: 100px;
-        margin-left: 10px;
+        width: 110px;
+        margin-left: 9px;
         color: black;
         background-color: #f1cb9d;
         border: 0.5px solid #661106;
@@ -294,15 +288,15 @@ footer {
         width: 70%;
     }
 
-    #yoga-program h1 {
+    #yoga-program h2 {
         font-size: 100%;
     }
 
-    #senior-yoga h2,
-    #meditation h2,
-    #advanced-yoga h2,
-    #child-yoga h2,
-    #basic-yoga h2 {
+    #senior-yoga h3,
+    #meditation h3,
+    #advanced-yoga h3,
+    #child-yoga h3,
+    #basic-yoga h3 {
         font-size: 80%;
     }
 
@@ -357,7 +351,7 @@ footer {
     padding: 20px;
 }
 
-#yoga-program h1 {
+#yoga-program h2{
     text-align: center;
     font-size: 190%;
     text-decoration: underline;
@@ -376,11 +370,11 @@ footer {
 
 }
 
-#senior-yoga h2,
-#meditation h2,
-#advanced-yoga h2,
-#child-yoga h2,
-#basic-yoga h2 {
+#senior-yoga h3,
+#meditation h3,
+#advanced-yoga h3,
+#child-yoga h3,
+#basic-yoga h3 {
     font-size: 150%;
     text-align: center;
     color: #B85042;
@@ -441,6 +435,6 @@ button {
 }
 
 #thanks-msg>button {
-    margin-left: 40%;
+    margin-left:30%;
 
 }
