@@ -19,11 +19,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f7ce9b;
     position: sticky;
     top: 0;
-    border-bottom: 0.5px solid #661106;
-    ;
+    /* border-bottom: 0.5px solid #661106;
+    background-color: #f7ce9b; */
+    height: 90px;
 
 }
 
@@ -77,8 +77,6 @@ header {
     /* color:black; */
     color: #661106;
     margin-top: 20%;
-    /* margin-left: 20%; */
-    /* width:250px; */
     font-style: oblique;
 }
 
@@ -113,7 +111,7 @@ header {
 
 #yoga-benefits h2 {
     text-align: center;
-    font-size: 250%;
+    font-size: 200%;
     margin-top: 30px;
     text-decoration: underline;
 
@@ -126,7 +124,7 @@ header {
 }
 
 #yoga-benefits h3 {
-    font-size: 180%;
+    font-size: 150%;
     text-decoration: underline;
     margin-bottom: 20px;
 }
@@ -152,52 +150,12 @@ footer {
     font-size: 200%;
     margin: 15px;
     padding: 5px 10px;
-    /* color:#3a3a3a; */
-    color: rgb(81, 3, 216);
+    color: #3a3a3a;
 }
 
-/* Media queries */
+/* Media queries for different screen size*/
 
-@media screen and (max-width:950px) {
-
-    #senior-yoga img,
-    #child-yoga img,
-    #meditation img {
-        padding-top: 50px;
-        padding-left: 5px;
-    }
-
-    #basic-yoga img,
-    #advanced-yoga img {
-        padding-top: 40px;
-        padding-left: 5px;
-    }
-
-    #hero-image h2 {
-        font-size: 350%;
-        margin-top: 10%;
-        width: 300px;
-        padding-left: 30px;
-        color: black;
-    }
-
-    #logo,
-    #menu li a {
-        color: black;
-    }
-
-    header {
-        height: 90px;
-    }
-
-    #contact-form {
-        margin-top: 45px;
-    }
-
-    #contact-form input,
-    #contact-form textarea {
-        width: 70%;
-    }
+@media screen and (max-width:1250px) {
 
     #senior-yoga,
     #meditation,
@@ -209,13 +167,56 @@ footer {
         grid-gap: 30px;
         border: 1px solid #B85042;
     }
+
+    #hero-image h2 {
+        font-size: 250%;
+        margin-top: 20%;
+        width: 300px;
+        margin-left: 40px;
+        color: black;
+        background-color: #f1cb9d;
+        border: 0.5px solid #661106;
+
+
+    }
+
 }
 
+/* Media query for maximum width 950px */
+
+@media screen and (max-width:950px) {
+
+    #senior-yoga img,
+    #child-yoga img,
+    #meditation img {
+        padding-top: 55px;
+        padding-left: 5px;
+    }
+
+    #basic-yoga img,
+    #advanced-yoga img {
+        padding-top: 40px;
+        padding-left: 5px;
+    }
+
+    #contact-form {
+        margin-top: 45px;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        width: 70%;
+    }
+
+}
+
+/* Media query for maximum width 750px */
 @media screen and (max-width:750px) {
     header {
         display: inline;
-        border-bottom: 0.5px solid #661106;
-        background-color: #f7ce9b;
+        border-bottom: 0.5px solid #7d1102;
+        background-color: #eabb82;
+
     }
 
     #menu li a {
@@ -236,11 +237,8 @@ footer {
     }
 }
 
+/* Media query for maximum width 450px */
 @media screen and (max-width:450px) {
-    header {
-        height: 80px;
-        background-color: #f7ce9b;
-    }
 
     #logo {
         font-size: 140%;
@@ -253,12 +251,13 @@ footer {
     }
 
     #hero-image h2 {
-        color: red;
-        font-size: 165%;
-        width: 220px;
-        padding-left: 5px;
-        margin-top: 2%;
-        /* color:black; */
+        font-size: 90%;
+        margin-top: 20%;
+        width: 100px;
+        margin-left: 10px;
+        color: black;
+        background-color: #f1cb9d;
+        border: 0.5px solid #661106;
     }
 
     #hero-image {
@@ -296,22 +295,58 @@ footer {
     }
 
     #yoga-program h1 {
-        font-size: 150%;
+        font-size: 100%;
     }
+
     #senior-yoga h2,
-#meditation h2,
-#advanced-yoga h2,
-#child-yoga h2,
-#basic-yoga h2 {
-    font-size: 130%;
+    #meditation h2,
+    #advanced-yoga h2,
+    #child-yoga h2,
+    #basic-yoga h2 {
+        font-size: 80%;
+    }
+
+    #senior-yoga p,
+    #meditation p,
+    #advanced-yoga p,
+    #child-yoga p,
+    #basic-yoga p {
+        font-size: 70%;
+    }
 }
-#senior-yoga p,
-#meditation p,
-#advanced-yoga p,
-#child-yoga p,
-#basic-yoga p{
-    font-size: 110%;
-}
+
+/* Media query for width:1250px and above */
+@media screen and (min-width:1250px) {
+    #advantagae {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 5px;
+        margin: 50px 20%;
+
+    }
+
+    #senior-yoga,
+    #meditation,
+    #advanced-yoga,
+    #child-yoga,
+    #basic-yoga {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+        border: 1px solid #B85042;
+    }
+
+    #hero-image h2 {
+        font-size: 350%;
+        margin-top: 10%;
+        width: 350px;
+        margin-left: 10%;
+        color: black;
+        background-color: #f1cb9d;
+        border: 0.5px solid #661106;
+
+
+    }
 }
 
 
@@ -324,29 +359,11 @@ footer {
 
 #yoga-program h1 {
     text-align: center;
-    font-size: 220%;
+    font-size: 190%;
     text-decoration: underline;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-/* #senior-yoga,
-#meditation,
-#advanced-yoga,
-#child-yoga,
-#basic-yoga {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 30px;
-    border: 1px solid #B85042; */
-/* margin: 50px; */
-/* color: #B85042;
-    /* border: 1px solid #B85042;
-    display: block;
-    align-items: center;
-    padding:20px; */
-
-/* } */
 
 #senior-yoga p,
 #meditation p,
@@ -354,7 +371,6 @@ footer {
 #child-yoga p,
 #basic-yoga p {
     font-size: 120%;
-    /* color: #B85042; */
     margin: 20px;
     padding: 0 20px;
 
@@ -365,7 +381,7 @@ footer {
 #advanced-yoga h2,
 #child-yoga h2,
 #basic-yoga h2 {
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
     color: #B85042;
     text-decoration: underline;
@@ -382,14 +398,11 @@ footer {
 #contact-form h2 {
     font-size: 200%;
     color: #B85042;
-
-
 }
 
 label {
     line-height: 40px;
     font-size: 130%;
-
 }
 
 input {
@@ -409,8 +422,6 @@ button {
     font-size: 130%;
     line-height: 40px;
     margin-top: 15px;
-    /* background-color: #B85042; */
-    /* color: white; */
     border: 1px solid #f1ab55;
     padding: 0 20px;
     cursor: pointer;
@@ -421,7 +432,7 @@ button {
     font-size: 250%;
     color: #661106;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20%;
     width: 50%;
     margin-left: 20%;
 
@@ -429,13 +440,6 @@ button {
 }
 
 #thanks-msg>button {
-    font-size: 120%;
-    line-height: 40px;
-    margin-top: 15px;
-    background-color: #B85042;
-    color: white;
-    padding: 0 20px;
-    cursor: pointer;
     margin-left: 40%;
 
 }
