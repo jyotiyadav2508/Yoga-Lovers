@@ -43,7 +43,8 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
   - This section is valuable to the user as they will be able to easily identify the types of program in which they want to participate. 
 
 ![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-programs1.png)
-(https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-programs2.png)
+
+![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-programs2.png)
 
 - __The Contact Us Page__
 
@@ -101,7 +102,7 @@ The live link can be found here -  https://jyotiyadav2508.github.io/Yoga-Lovers/
 
 ### Media
 
-- The photos used on the home and Our Programs page are from different open sources. For example www.pexels.com, www.shutterstocks.com.
+- The photos used on the home and Our Programs page are from different open sources. For example www.pexels.com and www.shutterstocks.com
 
 
 
