@@ -124,7 +124,7 @@ header {
 }
 
 footer {
-    height: 70px;
+    height: 65px;
     background-color: #f7dfc1;
     bottom: 0;
     position: fixed;
@@ -387,12 +387,15 @@ footer {
 #contact-form {
     margin-top: 25px;
     margin-left: 20%;
+    margin-bottom: 70px;
+    
 }
 
 #contact-form h2 {
     font-size: 200%;
     color: #B85042;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 label {
