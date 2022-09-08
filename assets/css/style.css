@@ -398,6 +398,7 @@ footer {
 #contact-form h2 {
     font-size: 200%;
     color: #B85042;
+    margin-bottom: 70px;
 }
 
 label {
@@ -432,7 +433,7 @@ button {
     font-size: 250%;
     color: #661106;
     text-align: center;
-    margin-top: 20%;
+    margin-top:15%;
     width: 50%;
     margin-left: 20%;
 
