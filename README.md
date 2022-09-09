@@ -41,16 +41,19 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
   - Our yoga programs provides the user information about different type of classes. 
   - This section is valuable to the user as they will be able to easily identify the types of program in which they want to participate. 
+  - Another section provides information about group classes, private class ,timimg and place.
 
 ![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-programs1.png)
 
 ![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-programs2.png)
 
+![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-class.png)
+
 - __The Contact Us Page__
 
   - This page will allow the user to contact our team for joining/enquiring about our yoga programs.The user will be asked to submit their name, email addres, phone number along with the enquiry text.
 
-![Contact Us](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-contactus.png)
+![Contact Us](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-contactpage.png)
 
 - __The Submit Confirmation Page__
   
@@ -60,7 +63,6 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
  ### Features Left to Implement
 
 - Animation on the text of the hero image 
-- Contact details (Adderss, Opening Hours)
 
 ## Testing 
 

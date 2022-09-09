@@ -261,7 +261,7 @@ footer {
     #hero-image {
         height: 400px;
         width: 70%;
-        margin-left:5%;
+        margin-left:7%;
         margin-top: 20px;
 
     }
@@ -465,19 +465,20 @@ button {
 
 }
 #address{
-    margin-bottom: 70px;
+    margin-bottom:90px;
+    margin-top: 35px;
 }
 #mobile{
     float:left;
     width:30%;
     margin-left:15%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 #mail{
     float:right;
     width: 30%;
     margin-right:20%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 #address h3{
     font-size: 130%;
