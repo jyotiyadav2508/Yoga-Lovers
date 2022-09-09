@@ -170,8 +170,11 @@ footer {
         color: black;
         background-color: #f1cb9d;
         border: 0.5px solid #661106;
-
-
+     
+    }
+    header{
+        border-bottom: 0.5px solid #661106;
+        background-color: #f7ce9b;
     }
 
 }
@@ -241,7 +244,7 @@ footer {
 
     #menu li {
         font-size: 62%;
-        margin:0.5px;
+        margin:0.4px;
         padding-left:2px;
     }
 
@@ -307,7 +310,7 @@ footer {
     #child-yoga p,
     #basic-yoga p {
         font-size: 70%;
-    }
+    }  
 }
 
 /* Media query for width:1250px and above */
@@ -424,7 +427,6 @@ footer {
 #contact-form {
     margin-top: 25px;
     margin-left: 20%;
-    margin-bottom: 70px;
     
 }
 
@@ -462,19 +464,38 @@ button {
     cursor: pointer;
 
 }
+#address{
+    margin-bottom: 70px;
+}
+#mobile{
+    float:left;
+    width:30%;
+    margin-left:15%;
+    margin-top: 30px;
+}
+#mail{
+    float:right;
+    width: 30%;
+    margin-right:20%;
+    margin-top: 30px;
+}
+#address h3{
+    font-size: 130%;
+    color: #B85042;
+}
 
 #thanks-msg h2 {
-    font-size: 250%;
+    font-size: 220%;
     color: #661106;
     text-align: center;
-    margin-top:15%;
-    width: 50%;
-    margin-left: 20%;
+    margin-top:10%;
+    width: 40%;
+    margin-left:25%;
 
 
 }
 
 #thanks-msg>button {
-    margin-left:30%;
+    margin-left:35%;
 
 }
