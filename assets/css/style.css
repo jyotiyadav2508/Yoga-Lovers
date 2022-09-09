@@ -66,17 +66,35 @@ header {
     background-position: center;
     height: 100vh;
     width: 100%;
-
+    position:relative;
 }
 
 #hero-image h2 {
     text-align: center;
-    font-size: 350%;
+    font-size: 340%;
     font-weight: 900;
     color:black;
     margin-top: 20%;
     font-style: oblique;
+    animation-name: text-move;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    position:absolute;
+
 }
+
+/* creates the level of zoom for hero image */
+@keyframes text-move {
+    from{
+        left:0px;   
+    }
+    to{
+        left:700px;
+    }
+}
+    
+
 
 #advantagae {
     display: block;
@@ -164,7 +182,6 @@ footer {
 
     #hero-image h2 {
         font-size: 250%;
-        margin-top: 20%;
         width: 300px;
         margin-left:35px;
         color: black;
@@ -204,9 +221,16 @@ footer {
     #contact-form textarea {
         width: 70%;
     }
+     @keyframes text-move {
+        from{
+            left:0px;
+         }
+        to{
+            left:400px; 
+    } 
 
 }
-
+}
 /* Media query for maximum width 750px */
 @media screen and (max-width:750px) {
     header {
@@ -232,6 +256,14 @@ footer {
         display: block;
         text-align: center;
     }
+    @keyframes text-move {
+        from{
+            left:0px;
+        }
+        to{
+            left:300px;
+        }
+    } 
 }
 
 /* Media query for maximum width 450px */
@@ -250,8 +282,8 @@ footer {
 
     #hero-image h2 {
         font-size: 120%;
-        margin-top: 20%;
-        width: 110px;
+        /* margin-top: 20%; */
+        width: 130px;
         margin-left:7px;
         color: black;
         background-color: #f1cb9d;
@@ -261,7 +293,7 @@ footer {
     #hero-image {
         height: 400px;
         width: 70%;
-        margin-left:7%;
+        margin-left:45px;
         margin-top: 20px;
 
     }
@@ -311,7 +343,15 @@ footer {
     #basic-yoga p {
         font-size: 70%;
     }  
-}
+     @keyframes text-move {
+        from{
+            left:0px;
+        }
+        to{
+            left:130px;
+        }
+    }
+} 
 
 /* Media query for width:1250px and above */
 @media screen and (min-width:1250px) {
@@ -336,14 +376,11 @@ footer {
 
     #hero-image h2 {
         font-size: 350%;
-        margin-top: 10%;
         width: 350px;
         margin-left: 10%;
         color: black;
         background-color: #f1cb9d;
         border: 0.5px solid #661106;
-
-
     }
 }
 
@@ -351,7 +388,7 @@ footer {
 /* Our Programs page */
 
 #yoga-program {
-    /* margin-bottom: 80px; */
+    margin-bottom: 80px;
     padding: 20px;
 }
 
@@ -431,33 +468,33 @@ footer {
 }
 
 #contact-form h2 {
-    font-size: 200%;
+    font-size: 180%;
     color: #B85042;
-    margin-bottom: 20px;
+    margin-bottom:5px;
     margin-top: 20px;
 }
 
 label {
-    line-height: 40px;
-    font-size: 130%;
+    line-height: 35px;
+    font-size: 110%;
 }
 
 input {
     font-size: 100%;
-    line-height: 35px;
+    line-height:25px;
     width: 50%;
     border: #f0cc9f 1px solid;
 }
 
 textarea {
-    font-size: 130%;
+    font-size: 100%;
     width: 50%;
     border: #f0cc9f 1px solid;
 }
 
 button {
-    font-size: 130%;
-    line-height: 40px;
+    font-size: 110%;
+    line-height: 30px;
     margin-top: 15px;
     border: 1px solid #f1ab55;
     padding: 0 20px;
@@ -465,20 +502,18 @@ button {
 
 }
 #address{
-    margin-bottom:90px;
-    margin-top: 35px;
+    margin-bottom:70px;
+    margin-top: 30px;
 }
 #mobile{
     float:left;
     width:30%;
     margin-left:15%;
-    /* margin-top: 30px; */
 }
 #mail{
     float:right;
     width: 30%;
     margin-right:20%;
-    /* margin-top: 30px; */
 }
 #address h3{
     font-size: 130%;
