@@ -21,12 +21,20 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    /* border-bottom: 0.5px solid #661106;
-    background-color: #f7ce9b; */
+    border-bottom: 0.5px solid #661106;
+    background-color: #f7ce9b;
     height: 90px;
-
+    z-index: 1;
 }
-
+footer {
+    height: 65px;
+    background-color: #f7dfc1;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+ /* Home page styling */
 #logo {
     padding-left: 30px;
     text-transform: uppercase;
@@ -40,6 +48,7 @@ header {
 
 #menu li {
     display: inline-block;
+    /* justify-content: space-between; */
     margin: 15px;
 }
 
@@ -60,21 +69,20 @@ header {
 
 
 #hero-image {
-    background: url("..//yogapics/hero-image.jpg") no-repeat;
-    border: 1px solid #B85042;
+    background: url("../yogapics/bg\ -\ Copy.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position:relative;
 }
 
 #hero-image h2 {
     text-align: center;
-    font-size: 340%;
-    font-weight: 900;
+    font-size: 280%;
+    /* font-weight: 900; */
     color:black;
-    margin-top: 20%;
+    margin-top: 5%;
     font-style: oblique;
     animation-name: text-move;
     animation-duration: 5s;
@@ -85,22 +93,24 @@ header {
 }
 
 /* creates the level of zoom for hero image */
-@keyframes text-move {
+/* @keyframes text-move {
     from{
         left:0px;   
     }
     to{
         left:700px;
     }
-}
+} */
     
 
 
-#advantagae {
-    display: block;
+#advantage {
+    /* display: block; */
+    display: flex;
     align-items: center;
-    margin: 1% 10%;
-    padding: 30px;
+    justify-content: space-between;
+    margin:10px;
+    padding: 10px;
 }
 
 #yoga-benefits {
@@ -108,14 +118,14 @@ header {
 }
 
 .benefits {
-    margin: 3% 10%;
-    padding: 0 20px;
+    margin: 10px 10%;
+    padding:10px;
 }
 
 .benefits li {
     list-style: disc;
     text-align: left;
-    font-size: 130%;
+    font-size: 120%;
     padding-left: 10px;
     margin: 10px;
 
@@ -124,13 +134,13 @@ header {
 #yoga-benefits h2 {
     text-align: center;
     font-size: 200%;
-    margin-top: 30px;
+    margin-top: 40px;
     text-decoration: underline;
 
 }
 
 #yoga-benefits p {
-    font-size: 130%;
+    font-size: 120%;
     text-align: justify;
     margin: 0 50px;
 }
@@ -141,14 +151,7 @@ header {
     margin-bottom: 20px;
 }
 
-footer {
-    height: 65px;
-    background-color: #f7dfc1;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-}
+
 
 .social-networks {
     text-align: center;
@@ -188,10 +191,6 @@ footer {
         background-color: #f1cb9d;
         border: 0.5px solid #661106;
      
-    }
-    header{
-        border-bottom: 0.5px solid #661106;
-        background-color: #f7ce9b;
     }
 
 }
@@ -237,6 +236,7 @@ footer {
         display: inline;
         border-bottom: 0.5px solid #7d1102;
         background-color: #eabb82;
+    
 
     }
 
@@ -363,7 +363,7 @@ footer {
 
     }
 
-    #senior-yoga,
+    /* #senior-yoga,
     #meditation,
     #advanced-yoga,
     #child-yoga,
@@ -372,7 +372,7 @@ footer {
         grid-template-columns: auto auto;
         grid-gap: 30px;
         border: 1px solid #B85042;
-    }
+    } */
 
     #hero-image h2 {
         font-size: 350%;
@@ -385,10 +385,9 @@ footer {
 }
 
 
-/* Our Programs page */
+/*  2nd page Our Programs  */
 
 #yoga-program {
-    margin-bottom: 80px;
     padding: 20px;
 }
 
@@ -400,22 +399,24 @@ footer {
     margin-bottom: 20px;
 }
 
-#senior-yoga p,
-#meditation p,
-#advanced-yoga p,
-#child-yoga p,
-#basic-yoga p {
-    font-size: 120%;
-    margin: 20px;
-    padding: 0 20px;
-
+.yoga-for p{
+    font-size:120%;
+    margin:20px;
+    padding:0 20px;
+}
+#yoga-program p{
+    font-size:120%;
+    margin:20px;
+    padding:0 20px;
+}
+.yoga-for {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    border: 1px solid #B85042;
 }
 
-#senior-yoga h3,
-#meditation h3,
-#advanced-yoga h3,
-#child-yoga h3,
-#basic-yoga h3 {
+.yoga-for h3 {
     font-size: 150%;
     text-align: center;
     color: #B85042;
@@ -435,35 +436,38 @@ footer {
     text-decoration: underline;
     
 }
-#classes p{
-    text-align: center;
-    font-size: 120%;
-}
 #classes h3{
     font-size: 150%;
     text-decoration: underline;
     color: #B85042;
     margin:10px;
+    text-align:center;
 }
-#group-classes, #private-classes{
+#classes p{
+    text-align:left;
+    font-size: 120%;
+}
+
+.class-type{
     border:1px solid #B85042;
     margin:20px;
     text-align: left;
     padding:10px;
 }
-#group-classes h4{
-    text-align: center;
+.class-type h4{
+    text-align: left;
     font-size: 135%;
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 10px;
     color:#B85042;
 }
+
+
 /* Contact us page styling */
 
 #contact-form {
-    margin-top: 25px;
-    margin-left: 20%;
+    margin-left:18%;
     
 }
 
@@ -504,11 +508,12 @@ button {
 #address{
     margin-bottom:70px;
     margin-top: 30px;
+    
 }
 #mobile{
     float:left;
     width:30%;
-    margin-left:15%;
+    margin-left:18%;
 }
 #mail{
     float:right;
@@ -516,22 +521,23 @@ button {
     margin-right:20%;
 }
 #address h3{
-    font-size: 130%;
+    font-size: 120%;
     color: #B85042;
 }
 
 #thanks-msg h2 {
-    font-size: 220%;
+    font-size: 180%;
     color: #661106;
-    text-align: center;
-    margin-top:10%;
-    width: 40%;
-    margin-left:25%;
-
-
+    text-align:center;
+    margin:25%;
+    width: 50%;
 }
 
 #thanks-msg>button {
-    margin-left:35%;
+    /* margin-left:43%; */
+    margin-left: 40%;
+    /* width:20%; */
+    text-align: center;
+
 
 }

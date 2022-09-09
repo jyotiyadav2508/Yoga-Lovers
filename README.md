@@ -2,7 +2,7 @@
 
 YOGA-LOVERS website is landing page for those, who want to get in shape both physically and mentally so they can enjoy their life to the maximum. It provides information on benefits of yoga and available yoga programs for different age groups and different levels of yoga.It provides also an option to the user for any specific query on the yoga programs via contact form.
 
-![Responsive Mockup](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-mockup.png)
+![Responsive Mockup](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-mockup.png)
 
  ## Features 
 
@@ -15,27 +15,27 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
   - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Our Programs and Contact us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-  ![Nav Bar](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-nav.png)
+  ![Nav Bar](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-nav.png)
 
   - __The landing page image__
 
   - The landing page includes a photograph with text to motivate the user to start yoga.
 
-![Landing Page](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-hero-img.png)
+![Landing Page](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-hero-img.png)
 
 - __yoga benefits Section__
 
   - The yoga benefits section will allow the user to see the  brief description about yoga and its physical and mental benefits.
   - The user will see the value of yoga in their day-to-day life. This should encourage the user to consider yoga to improve the fitness and quality of life. 
 
-![Yoga benefits](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-benefits.png)
+![Yoga benefits](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-benefits.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Yoga-lovers. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - The footer section includes links to the relevant social screenshots sites for Yoga-lovers. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social screenshots.
 
-![Footer](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-footer.png)
+![Footer](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-footer.png)
 
 - __Our Programs__
 
@@ -43,22 +43,22 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
   - This section is valuable to the user as they will be able to easily identify the types of program in which they want to participate. 
   - Another section provides information about group classes, private class ,timimg and place.
 
-![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-programs1.png)
+![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-programs1.png)
 
-![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-programs2.png)
+![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-programs2.png)
 
-![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-class.png)
+![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-class.png)
 
 - __The Contact Us Page__
 
   - This page will allow the user to contact our team for joining/enquiring about our yoga programs.The user will be asked to submit their name, email addres, phone number along with the enquiry text.
 
-![Contact Us](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-contactpage.png)
+![Contact Us](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-contactpage.png)
 
 - __The Submit Confirmation Page__
   
    - This page provides the confirmation to the user when information in the contact us page submitted.
- ![Submit Confirmation](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-thanks.png) 
+ ![Submit Confirmation](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-thanks.png) 
 
  ### Features Left to Implement
 
@@ -83,7 +83,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
 - Accessibility
-  ![Lighthouse test](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/media/yoga-lovers-lighthouse.png)
+  ![Lighthouse test](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-lighthouse.png)
 
 ## Deployment
 
@@ -102,7 +102,7 @@ The live link can be found here -  https://jyotiyadav2508.github.io/Yoga-Lovers/
 
 - The icons in the footer were taken from CI Love Running project.
 
-### Media
+### screenshots
 
 - The photos used on the home and Our Programs page are from different open sources. For example www.pexels.com and www.shutterstocks.com
 
