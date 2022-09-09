@@ -348,7 +348,7 @@ footer {
 /* Our Programs page */
 
 #yoga-program {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     padding: 20px;
 }
 
@@ -382,7 +382,43 @@ footer {
     text-decoration: underline;
 
 }
+#classes{
+    padding:20px;
+    margin-bottom:80px;
+    margin-top:20px;
 
+}
+#classes h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 190%;
+    text-decoration: underline;
+    
+}
+#classes p{
+    text-align: center;
+    font-size: 120%;
+}
+#classes h3{
+    font-size: 150%;
+    text-decoration: underline;
+    color: #B85042;
+    margin:10px;
+}
+#group-classes, #private-classes{
+    border:1px solid #B85042;
+    margin:20px;
+    text-align: left;
+    padding:10px;
+}
+#group-classes h4{
+    text-align: center;
+    font-size: 135%;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#B85042;
+}
 /* Contact us page styling */
 
 #contact-form {
