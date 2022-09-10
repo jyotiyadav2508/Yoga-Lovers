@@ -18,7 +18,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
   ![Nav Bar](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-nav.png)
 
-- __The landing page image__
+- __The landing page__
 
   - The landing page includes a photograph with text to motivate the user to start yoga.The text has eye catching animation to grab the users attention.
 
@@ -48,7 +48,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
 ![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-programs2.png)
 
-![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-class.png)
+![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-classes.png)
 
 - __The Contact Us Page__
 
@@ -81,17 +81,19 @@ I tested the following:
   - additionally, for code optimization, I removed repeated use of background color property from each media query. 
 
 - Submission on contact page submits the information without validating the required entries.
-  - to solve this bug, I removed the anchor tag as a descendent of the button and added the link in the form tag.
-   ![submit-Button]()
+  - to solve this bug, I removed the anchor tag as a descendent of the button and added as: <form action="thanks.html">
 
 ### Validator Testing 
 
 - HTML
-  - One error was returned when passing through the official [W3C validator]
+  - No error was returned when passing through the official for index.html [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2Findex.html)
+  - No error was returned when passing through the official for programs.html [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2Fprograms.html)
+  - No error was returned when passing through the official for contactus.html [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2Fcontactus.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
-  ![Lighthouse test](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-lighthouse.png)
+  ![Lighthouse test mobile](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/lighthouse-mobile.png)
+  ![Lighthouse test desktop](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/lighthous-desktop.png)
 
 ## Deployment
 
