@@ -45,9 +45,8 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
   - Another section provides information about group classes, private classes, timing and the place.
 
 ![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-programs1.png)
-
 ![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-programs2.png)
-
+![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-programs3.png)
 ![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-classes.png)
 
 - __The Contact Us Page__
@@ -59,7 +58,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 - __The Submit Confirmation Page__
   
    - This page provides the confirmation message to the user when information in the contact us page is submitted.
- ![Submit Confirmation](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-thanku.png) 
+ ![Submit Confirmation](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-thanks.png) 
 
 
 ## Testing 
@@ -77,7 +76,7 @@ I tested the following:
 
 - on different pages of the website, header background color was not visible on smaller devices.
   - to solve this bug, I used flex-direction:column instead of display:inline
-  ![flex-direction]((https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/flex.png))
+    ![flex-direction](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/flex.png)
   - additionally, for code optimization, I removed repeated use of background color property from each media query. 
 
 - Submission on contact page submits the information without validating the required entries.
@@ -89,11 +88,19 @@ I tested the following:
   - No error was returned when passing through the official for index.html [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2Findex.html)
   - No error was returned when passing through the official for programs.html [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2Fprograms.html)
   - No error was returned when passing through the official for contactus.html [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2Fcontactus.html)
+  - No error was returned when passing through the official for thanks.html [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2Fthanks.html)
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  
 - Accessibility
-  ![Lighthouse test mobile](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/lighthouse-mobile.png)
-  ![Lighthouse test desktop](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/lighthous-desktop.png)
+  - Lighthous test for mobile
+
+    ![Lighthouse test mobile](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/lighthouse-mobile.png)
+
+  - Lighthous test for desktop
+
+    ![Lighthouse test desktop](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/lighthous-desktop.png)
 
 ## Deployment
 
@@ -112,7 +119,7 @@ The live link can be found here -  https://jyotiyadav2508.github.io/Yoga-Lovers/
 
 - The icons in the footer were taken from CI Love Running project.
 
-### screenshots
+### Media
 
 - The photos used on the home and Our Programs page are from different open sources. For example www.pexels.com and www.shutterstocks.com.
 
