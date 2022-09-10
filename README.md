@@ -1,6 +1,7 @@
  # YOGA-LOVERS
+ The live link can be found here -  https://jyotiyadav2508.github.io/Yoga-Lovers/
 
-YOGA-LOVERS website is landing page for those, who want to get in shape both physically and mentally so they can enjoy their life to the maximum. It provides information on benefits of yoga and available yoga programs for different age groups and different levels of yoga.It provides also an option to the user for any specific query on the yoga programs via contact form.
+YOGA-LOVERS website is landing page for those, who want to get in shape both physically and mentally so they can enjoy their life to the maximum. It provides information on benefits of yoga and available yoga programs for different age groups and different levels of yoga.User can find here group classes as well as private tuition.It provides also an option to the user for any specific query on the yoga programs via contact form.
 
 ![Responsive Mockup](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-mockup.png)
 
@@ -11,7 +12,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 - __Navigation Bar__
 
  - Featured at the top of the page, the navigation shows the studio name in the left corner: YOGA-LOVERS.
- - The other navigation links are to the right: Home, Our Program and contact Us.
+ - The other navigation links are to the right: Home, Our Program and Contact Us.
   - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Our Programs and Contact us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
@@ -19,7 +20,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
   - __The landing page image__
 
-  - The landing page includes a photograph with text to motivate the user to start yoga.
+  - The landing page includes a photograph with text to motivate the user to start yoga.The text has eye catching animation to grab the users attention.
 
 ![Landing Page](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-hero-img.png)
 
@@ -51,23 +52,23 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
 - __The Contact Us Page__
 
-  - This page will allow the user to contact our team for joining/enquiring about our yoga programs.The user will be asked to submit their name, email addres, phone number along with the enquiry text.
+  - This page will allow the user to contact our team for joining/enquiring about our yoga programs.The user will be asked to submit their name, email addres, phone number along with the enquiry text. Additionally they can contact us on telefone or via Email.
 
-![Contact Us](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-contactpage.png)
+![Contact Us](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-contactus.png)
 
 - __The Submit Confirmation Page__
   
    - This page provides the confirmation to the user when information in the contact us page submitted.
- ![Submit Confirmation](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-thanks.png) 
+ ![Submit Confirmation](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-thanku.png) 
 
- ### Features Left to Implement
-
-- Animation on the text of the hero image 
 
 ## Testing 
 
 - I tested all pages of the website on different browsers:Chrome, Edge, Safari.
+- When click the nav elements, they provides the navigation links to other documents. 
 - I confirmed that the project is responsive, functional with good visualization on different screen sizes using Devtools device toolbar.
+- I tested the responsiveness on different screen sizees(Mobile s-320px, Mobilr M-375px, Mobile L-425 x 638,Tablet-768px,Laptop-1024px) using Devtools sevice toolbar.The color,backgroung-color,links,button all works perfectly.
+
 
 
 ## Bugs
@@ -75,6 +76,11 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 - Header background color is not visualized.
 - Submission on contact page submits the information without validating the required entries.
 
+## Fixed bugs
+
+- For header background, I removed the repeatedly properties from each media query. And used flex-direction:column instead of display:inline.(https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/flex.png)
+
+- For submit button remove the <a href="thanks.html">Submit</a> as a descendent of button. Give the link in <form > tag. AS <form action="thanks.html>.
 
 ### Validator Testing 
 
@@ -89,7 +95,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the side menu, select pages under Code and automation, select the main Branch
+  - From the side menu, select pages under Code and automation, select the main Branch, then click to save button.
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here -  https://jyotiyadav2508.github.io/Yoga-Lovers/
@@ -104,7 +110,7 @@ The live link can be found here -  https://jyotiyadav2508.github.io/Yoga-Lovers/
 
 ### screenshots
 
-- The photos used on the home and Our Programs page are from different open sources. For example www.pexels.com and www.shutterstocks.com
+- The photos used on the home and Our Programs page are from different open sources. For example www.pexels.com and www.shutterstocks.com.
 
 
 
