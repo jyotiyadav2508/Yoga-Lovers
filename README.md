@@ -16,7 +16,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
   - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Our Programs and Contact us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-  ![Nav Bar](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-nav.png)
+  ![Nav Bar](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-header.png)
 
 - __The landing page__
 
@@ -80,7 +80,7 @@ I tested the following:
   - additionally, for code optimization, I removed repeated use of background color property from each media query. 
 
 - Submission on contact page submits the information without validating the required entries.
-  - to solve this bug, I removed the anchor tag as a descendent of the button and added as: <form action="thanks.html">
+  - to solve this bug, I removed the anchor tag as a descendent of the button and added page link in action attribute.
 
 ### Validator Testing 
 
@@ -92,13 +92,13 @@ I tested the following:
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjyotiyadav2508.github.io%2FYoga-Lovers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  
+
 - Accessibility
-  - Lighthous test for mobile
+  - Lighthouse test for mobile
 
     ![Lighthouse test mobile](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/lighthouse-mobile.png)
 
-  - Lighthous test for desktop
+  - Lighthouse test for desktop
 
     ![Lighthouse test desktop](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/lighthous-desktop.png)
 
