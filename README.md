@@ -11,20 +11,20 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
 - __Navigation Bar__
 
- - Featured at the top of the page, the navigation shows the studio name in the left corner: YOGA-LOVERS.
- - The other navigation links are to the right: Home, Our Program and Contact Us.
+  - Featured at the top of the page, the navigation shows the studio name in the left corner: YOGA-LOVERS.
+  - The other navigation links are to the right: Home, Our Program and Contact Us.
   - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Our Programs and Contact us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
   ![Nav Bar](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-nav.png)
 
-  - __The landing page image__
+- __The landing page image__
 
   - The landing page includes a photograph with text to motivate the user to start yoga.The text has eye catching animation to grab the users attention.
 
-![Landing Page](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-hero-img.png)
+  ![Landing Page](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-hero-img.png)
 
-- __yoga benefits Section__
+- __Yoga benefits Section__
 
   - The yoga benefits section will allow the user to see the  brief description about yoga and its physical and mental benefits.
   - The user will see the value of yoga in their day-to-day life. This should encourage the user to consider yoga to improve the fitness and quality of life. 
@@ -42,7 +42,7 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
   - Our yoga programs provides the user information about different type of classes. 
   - This section is valuable to the user as they will be able to easily identify the types of program in which they want to participate. 
-  - Another section provides information about group classes, private class ,timimg and place.
+  - Another section provides information about group classes, private classes, timing and the place.
 
 ![Our Yoga Programs](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-programs1.png)
 
@@ -52,35 +52,37 @@ YOGA-LOVERS website is landing page for those, who want to get in shape both phy
 
 - __The Contact Us Page__
 
-  - This page will allow the user to contact our team for joining/enquiring about our yoga programs.The user will be asked to submit their name, email addres, phone number along with the enquiry text. Additionally they can contact us on telefone or via Email.
+  - This page will allow the user to contact our team for joining/enquiring about our yoga programs.The user will be asked to submit their name, email addres, phone number along with the enquiry text. Additionally they can contact us via Telephone or Email.
 
 ![Contact Us](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-contactus.png)
 
 - __The Submit Confirmation Page__
   
-   - This page provides the confirmation to the user when information in the contact us page submitted.
+   - This page provides the confirmation message to the user when information in the contact us page is submitted.
  ![Submit Confirmation](https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/yoga-lovers-thanku.png) 
 
 
 ## Testing 
-
-- I tested all pages of the website on different browsers:Chrome, Edge, Safari.
-- When click the nav elements, they provides the navigation links to other documents. 
-- I confirmed that the project is responsive, functional with good visualization on different screen sizes using Devtools device toolbar.
-- I tested the responsiveness on different screen sizees(Mobile s-320px, Mobilr M-375px, Mobile L-425 x 638,Tablet-768px,Laptop-1024px) using Devtools sevice toolbar.The color,backgroung-color,links,button all works perfectly.
-
+I tested the following:
+- all the pages of the website on different browsers: Chrome, Edge, Safari.
+- When a nav element is clicked, it provides the navigation link to the respective page. 
+- the responsiveness of the website on different screen sizes (Mobile S-320px, Mobile M-375px, Mobile L-425px, Tablet-768px, Laptop-1024px) using Devtools sevice toolbar. The different CSS propoerties for font, color, background-color, links, submit button work as expected.
+- animation of the hero-image text moves within the defined area.
+- when social link in the footer is clicked, it directs to the respective social media page.
 
 
 ## Bugs
 
-- Header background color is not visualized.
-- Submission on contact page submits the information without validating the required entries.
-
 ## Fixed bugs
 
-- For header background, I removed the repeatedly properties from each media query. And used flex-direction:column instead of display:inline.(https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/flex.png)
+- on different pages of the website, header background color was not visible on smaller devices.
+  - to solve this bug, I used flex-direction:column instead of display:inline
+  ![flex-direction]((https://github.com/jyotiyadav2508/Yoga-Lovers/blob/main/screenshots/flex.png))
+  - additionally, for code optimization, I removed repeated use of background color property from each media query. 
 
-- For submit button remove the <a href="thanks.html">Submit</a> as a descendent of button. Give the link in <form > tag. AS <form action="thanks.html>.
+- Submission on contact page submits the information without validating the required entries.
+  - to solve this bug, I removed the anchor tag as a descendent of the button and added the link in the form tag.
+   ![submit-Button]()
 
 ### Validator Testing 
 

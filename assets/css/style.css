@@ -26,19 +26,21 @@ header {
     height: 90px;
     z-index: 1;
 }
+
 footer {
     height: 65px;
-    background-color: #f7dfc1;
+    background-color: #f7ce9b;
     bottom: 0;
     position: fixed;
     left: 0;
     right: 0;
 }
- /* Home page styling */
+
+/* Home page styling */
 #logo {
     padding-left: 30px;
     text-transform: uppercase;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     color: #661106;
 }
 
@@ -73,13 +75,13 @@ footer {
     background-position: center;
     height: 80vh;
     width: 100%;
-    position:relative;
+    position: relative;
 }
 
 #hero-image h2 {
     text-align: center;
     margin-top: 20%;
-    margin-left:25px;
+    margin-left: 25px;
     font-size: 240%;
     width: 320px;
     background-color: #f1cb9d;
@@ -87,30 +89,34 @@ footer {
     font-style: oblique;
     animation-name: text-move;
     animation-duration: 5s;
-    animation-timing-function:ease-in-out;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: 5;
-    position:absolute;
+    position: absolute;
 }
 
 /* creates the level of zoom for hero image  */
- @keyframes text-move {
-    from{
-        left:0px;   
+@keyframes text-move {
+    from {
+        left: 0px;
     }
-    to{
-        left:750px;
+
+    to {
+        left: 750px;
     }
 }
+
 #yoga-benefits {
     margin-bottom: 80px;
 }
+
 #advantage {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:10px;
+    margin: 10px;
     padding: 10px;
 }
+
 #yoga-benefits h2 {
     text-align: center;
     font-size: 190%;
@@ -130,9 +136,10 @@ footer {
     text-decoration: underline;
     margin-bottom: 20px;
 }
+
 .benefits {
     margin: 10px 10%;
-    padding:10px;
+    padding: 10px;
 }
 
 .benefits li {
@@ -167,23 +174,24 @@ footer {
     padding: 20px;
 }
 
-#yoga-program h2{
+#yoga-program h2 {
     text-align: center;
     font-size: 190%;
     text-decoration: underline;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#yoga-program p{
-    font-size:110%;
-    margin:20px;
-    padding:0 20px;
+
+#yoga-program p {
+    font-size: 110%;
+    margin: 20px;
+    padding: 0 20px;
 }
 
-.yoga-for p{
-    font-size:110%;
-    margin:20px;
-    padding:0 20px;
+.yoga-for p {
+    font-size: 110%;
+    margin: 20px;
+    padding: 0 20px;
 }
 
 .yoga-for {
@@ -198,58 +206,63 @@ footer {
     text-decoration: underline;
 
 }
-#classes{
-    padding:20px;
-    margin-bottom:80px;
-    margin-top:20px;
+
+#classes {
+    padding: 20px;
+    margin-bottom: 80px;
+    margin-top: 20px;
 
 }
-#classes h2{
+
+#classes h2 {
     text-align: center;
     margin-top: 20px;
     font-size: 190%;
     text-decoration: underline;
-    
+
 }
-#classes h3{
+
+#classes h3 {
     font-size: 150%;
     text-decoration: underline;
     color: #B85042;
-    margin:10px;
-    text-align:center;
+    margin: 10px;
+    text-align: center;
 }
-#classes p{
-    text-align:left;
+
+#classes p {
+    text-align: left;
     font-size: 110%;
 }
 
-.class-type{
-    border:1px solid #B85042;
-    margin:20px;
+.class-type {
+    border: 1px solid #B85042;
+    margin: 20px;
     text-align: left;
-    padding:10px;
+    padding: 10px;
 }
-.class-type h4{
+
+.class-type h4 {
     text-align: left;
     font-size: 135%;
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 10px;
-    color:#B85042;
+    color: #B85042;
 }
 
 
 /* Contact us page styling */
 
 #contact-form {
-    margin-left:18%;
-    
+    margin-left: 18%;
+
 }
 
 #contact-form h2 {
     font-size: 180%;
     color: #B85042;
-    margin-bottom:5px;
+    margin-bottom: 5px;
     margin-top: 20px;
 }
 
@@ -260,7 +273,7 @@ label {
 
 input {
     font-size: 100%;
-    line-height:25px;
+    line-height: 25px;
     width: 45%;
     border: #f0cc9f 1px solid;
 }
@@ -280,123 +293,142 @@ button {
     cursor: pointer;
 
 }
-#address{
-    margin-bottom:70px;
+
+#address {
+    margin-bottom: 70px;
     margin-top: 30px;
-    
+
 }
-#mobile{
-    float:left;
-    width:30%;
-    margin-left:18%;
-}
-#mail{
-    float:right;
+
+#mobile {
+    float: left;
     width: 30%;
-    margin-right:20%;
-   
+    margin-left: 18%;
 }
-#address h3{
-    color:#B85042;
+
+#mail {
+    float: right;
+    width: 30%;
+    margin-right: 20%;
+
+}
+
+#address h3 {
+    color: #B85042;
     text-decoration: underline;
 }
 
 #thanks-msg h2 {
     font-size: 180%;
     color: #661106;
-    text-align:center;
-    margin:25%;
+    text-align: center;
+    margin: 25%;
     width: 50%;
 }
 
 #thanks-msg>button {
     margin-left: 40%;
-   text-align: center;
+    text-align: center;
 
 
 }
+
 /* Media queries for different screen size*/
 
 /* Media query for maximum width 950px */
 
 @media screen and (max-width:950px) {
-    
-    #hero-image h2{
-         margin-top: 35%;
-     }
- 
-      @keyframes text-move {
-         from{
-             left:0px;
-          }
-         to{
-             left:400px; 
-     } 
- }
- .yoga-for img {
-     padding-top: 55px;
-     padding-left: 5px;
- }
- }
- /* Media query for maximum width 750px */
- @media screen and (max-width:750px) {
- 
-     header {
-         flex-direction: column;
-     }
-      #logo {
-         font-size: 120%;
-         padding-top: 10px;
-     }
-      #menu li {
-         font-size:90%;
-         margin:10px;
-     }
+
     #hero-image h2 {
-         margin-top:50%;
+        margin-top: 35%;
+    }
+
+    @keyframes text-move {
+        from {
+            left: 0px;
         }
-     @keyframes text-move {
-         from{
-             left:0px;
-         }
-         to{
-             left:550px;
-         }
-     } 
-     
- #advantage{
-     flex-direction: column;
- }
- .yoga-for {
-     flex-direction: column;
-  }
-  .yoga-for img{
-      width:90%;
-  }
-     
- }
- /* Media query for maximum width 450px */
- @media screen and (max-width:450px) {
-     #menu li {
-         font-size:65%;
-         margin:5px;
-     }
+
+        to {
+            left: 400px;
+        }
+    }
+
+    .yoga-for img {
+        padding-top: 55px;
+        padding-left: 5px;
+    }
+}
+
+/* Media query for maximum width 750px */
+@media screen and (max-width:750px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    #logo {
+        font-size: 120%;
+        padding-top: 10px;
+    }
+
+    #menu li {
+        font-size: 90%;
+        margin: 10px;
+    }
+
     #hero-image h2 {
-         margin-top:80%;
-         margin-left:2px;
-         font-size: 150%;
-         width: 200px;
- }
-     @keyframes text-move {
-         from{
-             left:0px;
-         }
-         to{
-             left:250px;
-         }
-     } 
-        #yoga-benefits h2 {
-         font-size: 150%;
-     }
- }
- 
+        margin-top: 50%;
+    }
+
+    @keyframes text-move {
+        from {
+            left: 0px;
+        }
+
+        to {
+            left: 550px;
+        }
+    }
+
+    #advantage {
+        flex-direction: column;
+    }
+
+    .yoga-for {
+        flex-direction: column;
+    }
+
+    .yoga-for img {
+        width: 90%;
+    }
+
+}
+
+/* Media query for maximum width 450px */
+@media screen and (max-width:450px) {
+    #menu li {
+        font-size: 65%;
+        margin: 5px;
+    }
+
+    #hero-image h2 {
+        margin-top: 80%;
+        margin-left: 2px;
+        font-size: 150%;
+        width: 200px;
+    }
+
+    @keyframes text-move {
+        from {
+            left: 0px;
+        }
+
+        to {
+            left: 250px;
+        }
+    }
+
+    #yoga-benefits h2 {
+        font-size: 150%;
+    }
+}
