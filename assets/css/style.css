@@ -90,7 +90,7 @@ footer {
     animation-name: text-move;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 5;
+    animation-iteration-count: 1;
     position: absolute;
 }
 
